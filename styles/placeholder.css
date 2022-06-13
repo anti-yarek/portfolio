@@ -1,0 +1,381 @@
+body {
+    background-color: #FFC9E0;
+    height: 100vh;
+    overflow-y: scroll;
+}
+header {
+    overflow: hidden;
+    height: 100vh;
+}
+.navbar-left {
+    overflow: hidden;
+    position: fixed;
+    width: 300%;
+    z-index: 2;
+    
+    -moz-transform: rotate(-90deg) translateX(-60vw);
+    -moz-transform-origin: top left;
+    -webkit-transform: rotate(-90deg) translateX(-60vw);
+    -webkit-transform-origin: top left;
+    transform: rotate(-90deg) translateX(-60vw);
+    transform-origin: top left;
+  
+    -moz-animation: my-animation 15s linear infinite;
+    -webkit-animation: my-animation 15s linear infinite;
+    animation: my-animation 15s linear infinite;
+}
+
+/* for Firefox */
+@-moz-keyframes my-animation {
+  from {-moz-transform: rotate(-90deg) translateX(-60vw);
+        -moz-transform-origin: top left; }
+  to {  -moz-transform: rotate(-90deg) translateX(-172vw);
+        -moz-transform-origin: top left; }
+}
+
+/* for Chrome */
+@-webkit-keyframes my-animation {
+  from {-webkit-transform: rotate(-90deg) translateX(-60vw);
+        -webkit-transform-origin: top left; }
+  to {  -webkit-transform: rotate(-90deg) translateX(-172vw);
+        -webkit-transform-origin: top left; }
+}
+
+@keyframes my-animation {
+  from {
+    -moz-transform: rotate(-90deg) translateX(-60vw);
+    -moz-transform-origin: top left;
+    -webkit-transform: rotate(-90deg) translateX(-60vw);
+    -webkit-transform-origin: top left;
+    transform: rotate(-90deg) translateX(-60vw);
+    transform-origin: top left;
+  }
+  to {
+    -moz-transform: rotate(-90deg) translateX(-172vw);
+    -moz-transform-origin: top left;
+    -webkit-transform: rotate(-90deg) translateX(-172vw);
+    -webkit-transform-origin: top left;
+    transform: rotate(-90deg) translateX(-172vw);
+    transform-origin: top left;
+  }
+}
+.navbar-left a {
+    float: left;
+    display: block;
+    text-align: center;
+    font-family: Shatter;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 7vw;
+    padding: 1vw;
+}
+.navbar-right {
+    overflow: hidden;
+    position: fixed;
+    width: 300%;
+    z-index: 2;
+        
+    -moz-transform: rotate(90deg) translateX(0vw) translateY(-100vw);
+    -moz-transform-origin: top left;
+    -webkit-transform: rotate(90deg) translateX(0vw) translateY(-100vw);
+    -webkit-transform-origin: top left;
+    transform: rotate(90deg) translateX(0vw) translateY(-100vw);
+    transform-origin: top left;
+  
+    -moz-animation: my-animation2 15s linear infinite;
+    -webkit-animation: my-animation2 15s linear infinite;
+    animation: my-animation2 15s linear infinite;
+}
+
+/* for Firefox */
+@-moz-keyframes my-animation2 {
+  from {-moz-transform: rotate(90deg) translateX(0vw) translateY(-100vw);
+        -moz-transform-origin: top left; }
+  to {  -moz-transform: rotate(90deg) translateX(-112vw) translateY(-100vw);
+        -moz-transform-origin: top left; }
+}
+
+/* for Chrome */
+@-webkit-keyframes my-animation2 {
+  from {-webkit-transform: rotate(90deg) translateX(0vw) translateY(-100vw);
+        -webkit-transform-origin: top left; }
+  to {  -webkit-transform: rotate(90deg) translateX(-112vw) translateY(-100vw);
+        -webkit-transform-origin: top left; }
+}
+
+@keyframes my-animation2 {
+  from {
+    -moz-transform: rotate(90deg) translateX(0vw) translateY(-100vw);
+    -moz-transform-origin: top left;
+    -webkit-transform: rotate(90deg) translateX(0vw) translateY(-100vw);
+    -webkit-transform-origin: top left;
+    transform: rotate(90deg) translateX(0vw) translateY(-100vw);
+    transform-origin: top left;
+  }
+  to {
+    -moz-transform: rotate(90deg) translateX(-112vw) translateY(-100vw);
+    -moz-transform-origin: top left;
+    -webkit-transform: rotate(90deg) translateX(-112vw) translateY(-100vw);
+    -webkit-transform-origin: top left;
+    transform: rotate(90deg) translateX(-112vw) translateY(-100vw);
+    transform-origin: top left;
+  }
+}
+.navbar-right a {
+    float: left;
+    display: block;
+    text-align: center;
+    font-family: Shatter;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 7vw;
+    padding: 1vw;
+}
+.homeButton {
+    color: #F31C29;
+    background-color: #FFC9E0;
+}
+.about {
+    color: #FFC9E0;
+    background-color: #F31C29;
+}
+@font-face {
+    font-family: Shatter;
+    src: url(../assets/fonts/Shatter_Plain.woff);
+}
+@font-face {
+    font-family: Podkova;
+    src: url(../assets/fonts/podkova_[allfont.ru].ttf);
+}
+.wrapper {
+    width: 70vw;
+    top: 0;
+    transform: translateY(-100vh) translateX(15vw);
+    display: block;
+}
+.wrapper iframe {
+    width: 70vw;
+    height: 100vh;
+    padding-bottom: 5vh;
+}
+.wrapper img {
+    width: 70vw;
+    margin-bottom: 5vh;
+}
+.wrapper2 {
+    width: 70vw;
+    top: 0;
+    transform: translateY(-100vh) translateX(15vw);
+    display: flex;
+}
+.iphone {
+    flex: 33.3%;
+    margin-bottom: 5vh;
+}
+.iphone img {
+    width: 20vw;
+}
+#ip1 {
+    padding-right: 5vw;
+}
+#ip2 {
+    padding-right: 5vw;
+}
+.wrapper p {
+    font-family: Podkova;
+    font-size: 2vw;
+    line-height: 3vw;
+    color: #F31C29;
+    padding-bottom: 3vw;
+    text-align: justify;
+    text-justify: inter-word;
+}
+#library {
+    margin-top: 0vh;
+    margin-bottom: 5vh;
+}
+.wrapper a {
+    font-family: Shatter;
+    font-size: 9.5vw;
+    color: #F31C29;
+    text-decoration: none;
+    width: 70vw;
+}
+.wrapper h1 {
+    padding-bottom: 10vh;
+    text-align: center;
+}
+@media only screen and (max-width: 1007px) {
+    .navbar-left {
+        overflow: hidden;
+        position: fixed;
+        width: 400%;
+        z-index: 2;
+        
+        -moz-transform: translateX(-10vh);
+        -moz-transform-origin: top left;
+        -webkit-transform: translateX(-10vh);
+        -webkit-transform-origin: top left;
+        transform: translateX(-10vh);
+        transform-origin: top left;
+      
+        -moz-animation: my-animation 15s linear infinite;
+        -webkit-animation: my-animation 15s linear infinite;
+        animation: my-animation 15s linear infinite;
+    }
+    
+    /* for Firefox */
+    @-moz-keyframes my-animation {
+      from {-moz-transform: translateX(-10vh);
+            -moz-transform-origin: top left; }
+      to {  -moz-transform: translateX(-142vh);
+            -moz-transform-origin: top left; }
+    }
+    
+    /* for Chrome */
+    @-webkit-keyframes my-animation {
+      from {-webkit-transform: translateX(-10vh);
+            -webkit-transform-origin: top left; }
+      to {  -webkit-transform: translateX(-142vh);
+            -webkit-transform-origin: top left; }
+    }
+    
+    @keyframes my-animation {
+      from {
+        -moz-transform: translateX(-10vh);
+        -moz-transform-origin: top left;
+        -webkit-transform: translateX(-10vh);
+        -webkit-transform-origin: top left;
+        transform: translateX(-10vh);
+        transform-origin: top left;
+      }
+      to {
+        -moz-transform: translateX(-142vh);
+        -moz-transform-origin: top left;
+        -webkit-transform: translateX(-142vh);
+        -webkit-transform-origin: top left;
+        transform: translateX(-142vh);
+        transform-origin: top left;
+      }
+    }
+    .navbar-left a {
+        float: left;
+        display: block;
+        text-align: center;
+        font-family: Shatter;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 8vh;
+        padding: 1.5vh;
+    }
+    .navbar-right {
+        overflow: hidden;
+        position: fixed;
+        width: 400%;
+        z-index: 2;
+            
+        -moz-transform: translateX(-132vh) translateY(89vh);
+        -moz-transform-origin: bottom left;
+        -webkit-transform: translateX(-132vh) translateY(89vh);
+        -webkit-transform-origin: bottom left;
+        transform: translateX(-132vh) translateY(89vh);
+        transform-origin: bottom left;
+      
+        -moz-animation: my-animation2 15s linear infinite;
+        -webkit-animation: my-animation2 15s linear infinite;
+        animation: my-animation2 15s linear infinite;
+    }
+    
+    /* for Firefox */
+    @-moz-keyframes my-animation2 {
+      from {-moz-transform: translateX(-132vh) translateY(89vh);
+            -moz-transform-origin: bottom left; }
+      to {  -moz-transform: translateX(0vh) translateY(89vh);
+            -moz-transform-origin: bottom left; }
+    }
+    
+    /* for Chrome */
+    @-webkit-keyframes my-animation2 {
+      from {-webkit-transform: translateX(-132vh) translateY(89vh);
+            -webkit-transform-origin: bottom left; }
+      to {  -webkit-transform: translateX(0vh) translateY(89vh);
+            -webkit-transform-origin: bottom left; }
+    }
+    
+    @keyframes my-animation2 {
+      from {
+        -moz-transform: translateX(-132vh) translateY(89vh);
+        -moz-transform-origin: bottom left;
+        -webkit-transform: translateX(-132vh) translateY(89vh);
+        -webkit-transform-origin: bottom left;
+        transform: translateX(-132vh) translateY(89vh);
+        transform-origin: bottom left;
+      }
+      to {
+        -moz-transform: translateX(0vh) translateY(89vh);
+        -moz-transform-origin: bottom left;
+        -webkit-transform: translateX(0vh) translateY(89vh);
+        -webkit-transform-origin: bottom left;
+        transform: translateX(0vh) translateY(89vh);
+        transform-origin: bottom left;
+      }
+    }
+    .navbar-right a {
+        float: left;
+        display: block;
+        text-align: center;
+        font-family: Shatter;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 8vh;
+        padding: 1.5vh;
+    }
+    .wrapper {
+        margin-top: 11vh;
+        width: 80vw;
+        transform: translateY(-100vh) translateX(10vw);
+    }
+    .wrapper h1 {
+        padding-bottom: 21vh;
+    }
+    .iphone {
+        margin-bottom: 0vh;
+    }
+    .wrapper iframe {
+        width: 80vw;
+        height: 100vh;
+        padding-bottom: 5vh;
+    }
+    .wrapper img {
+        width: 80vw;
+    }
+    .wrapper2 {
+        width: 80vw;
+        transform: translateY(-100vh) translateX(10vw);
+    }
+    .iphone img {
+        width: 22vw;
+    }
+    #ip1 {
+        padding-right: 7vw;
+    }
+    #ip2 {
+        padding-right: 7vw;
+    }
+    .wrapper p {
+        font-size: 4vh;
+        line-height: 5vh;
+        padding-bottom: 5vh;
+    }
+    #library {
+        margin-top: 0vh;
+        margin-bottom: 5vh;
+    }
+    .wrapper a {
+        font-size: 10.5vw;
+        width: 80vw;
+    }
+    span.span1 {
+        display: none;
+    }
+}

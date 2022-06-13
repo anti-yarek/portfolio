@@ -1,0 +1,12 @@
+/* Webfont: HeiseiKakuGoStd-W3 */@font-face {
+    font-family: 'HeiseiKakuGothicStdW3';
+    src: url('heiseikakugostd-w3.eot'); /* IE9 Compat Modes */
+    src: url('heiseikakugostd-w3.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('heiseikakugostd-w3.woff') format('woff'), /* Modern Browsers */
+         url('heiseikakugostd-w3.woff2') format('woff2'), /* Modern Browsers */
+         url('heiseikakugostd-w3.ttf') format('truetype'); /* Safari, Android, iOS */
+             font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+

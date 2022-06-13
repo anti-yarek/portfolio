@@ -1,0 +1,12 @@
+/* Webfont: ShatterPlain */@font-face {
+    font-family: 'Shatter';
+    src: url('Shatter_Plain.eot'); /* IE9 Compat Modes */
+    src: url('Shatter_Plain.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('Shatter_Plain.woff') format('woff'), /* Modern Browsers */
+         url('Shatter_Plain.woff2') format('woff2'), /* Modern Browsers */
+         url('Shatter_Plain.ttf') format('truetype'); /* Safari, Android, iOS */
+             font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
