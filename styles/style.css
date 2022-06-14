@@ -1102,6 +1102,7 @@ button {
         border: 0ch;
         height: 60vh;
         padding: 10vh;
+        justify-content: center;
     }
     .intro {
         height: 100vh;
