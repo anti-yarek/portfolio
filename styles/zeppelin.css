@@ -1,6 +1,11 @@
 body {
     height: 100vh;
     background-color: #FFC9E0;
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    scrollbar-width: none;  /* Firefox */
+}
+body::-webkit-scrollbar { 
+    display: none;  /* Safari and Chrome */
 }
 header {
     overflow: hidden;
@@ -176,10 +181,43 @@ to {
     text-align: center;
 }
 @media only screen and (max-width: 1007px) {
+
+  .wrapper {
+      margin-top: 0vh;
+      transform: translateY(-100vh) translateX(15vw);
+      width: 70vw;
+  }
+  .wrapper iframe {
+    width: 70vw;
+    height: 50vh;
+  }
+  .wrapper h1 {
+      padding-bottom: 10vh;
+  }
+  .wrapper p {
+    padding-bottom: 5vh;
+    font-family: Squealer;
+    font-size: 4vh;
+    line-height: 5vh;
+    color: #F31C29;
+    text-align: center;
+  }
+  .wrapper a {
+    font-family: Shatter;
+    font-size: 9.5vw;
+    color: #F31C29;
+    text-decoration: none;
+    width: 70vw;
+  }
+  br.br1 {
+    display: none;
+  }
+}
+@media only screen and (max-width: 480px){
   .navbar-left {
       overflow: hidden;
       position: fixed;
-      width: 400%;
+      width: 800%;
       z-index: 2;
       
       -moz-transform: translateX(-10vh);
@@ -241,7 +279,7 @@ to {
   .navbar-right {
       overflow: hidden;
       position: fixed;
-      width: 400%;
+      width: 800%;
       z-index: 2;
           
       -moz-transform: translateX(-132vh) translateY(89vh);
@@ -301,9 +339,9 @@ to {
       padding: 1.5vh;
   }
   .wrapper {
-      margin-top: 11vh;
-      transform: translateY(-100vh) translateX(10vw);
-      width: 80vw;
+    margin-top: 11vh;
+    transform: translateY(-100vh) translateX(10vw);
+    width: 80vw;
   }
   .wrapper iframe {
     width: 80vw;

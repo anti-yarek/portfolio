@@ -3,6 +3,14 @@ header {
     overflow: hidden;
     height: 100vh;
 }
+body {
+  height: 100vh;
+  -ms-overflow-style: none;  /* Internet Explorer 10+ */
+  scrollbar-width: none;  /* Firefox */
+}
+body::-webkit-scrollbar { 
+  display: none;  /* Safari and Chrome */
+}
 .navbar-left {
   overflow: hidden;
   position: fixed;
@@ -173,20 +181,21 @@ to {
     src: url(../assets/fonts/Shatter_Plain.woff);
 }
 @media only screen and (max-width: 1007px) {
-  body {
-      position: relative;
-      width: 100vw;
-      height: 100vh;
-      overflow: hidden;
+  .bg h1{
+    font-size: 9vh;
+    margin-top: 10vh;
+    margin-left: 15vw;
   }
-  header {
-      overflow: hidden;
-      height: 100vh;
+  .bg h2 {
+      font-size: 6vh;
+      margin-left: 15vw;
   }
+}
+@media only screen and (max-width: 600px){
   .navbar-left {
       overflow: hidden;
       position: fixed;
-      width: 400%;
+      width: 800%;
       z-index: 2;
       
       -moz-transform: translateX(-10vh);
@@ -248,7 +257,7 @@ to {
   .navbar-right {
       overflow: hidden;
       position: fixed;
-      width: 400%;
+      width: 800%;
       z-index: 2;
           
       -moz-transform: translateX(-132vh) translateY(89vh);
@@ -308,12 +317,13 @@ to {
       padding: 1.5vh;
   }
   .bg h1{
-    font-size: 10vh;
+    font-size: 7vh;
     margin-top: 16vh;
     margin-left: 10vw;
-}
-.bg h2 {
-    font-size: 7vh;
-    margin-left: 10vw;
-}
+  }
+  .bg h2 {
+      font-size: 4vh;
+      line-height: 6vh;
+      margin-left: 10vw;
+  }
 }

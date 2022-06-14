@@ -1,7 +1,11 @@
 body {
     background-color: #FFC9E0;
     height: 100vh;
-    overflow-y: scroll;
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    scrollbar-width: none;  /* Firefox */
+}
+body::-webkit-scrollbar { 
+    display: none;  /* Safari and Chrome */
 }
 header {
     overflow: hidden;
@@ -206,10 +210,61 @@ header {
     text-align: center;
 }
 @media only screen and (max-width: 1007px) {
+
+    .wrapper {
+        margin-top: 0vh;
+        width: 70vw;
+        transform: translateY(-100vh) translateX(15vw);
+    }
+    .wrapper h1 {
+        padding-bottom: 10vh;
+    }
+    .iphone {
+        margin-bottom: 0vh;
+    }
+    .wrapper iframe {
+        width: 70vw;
+        height: 100vh;
+        padding-bottom: 5vh;
+    }
+    .wrapper img {
+        width: 70vw;
+    }
+    .wrapper2 {
+        width: 70vw;
+        transform: translateY(-100vh) translateX(15vw);
+    }
+    .iphone img {
+        width: 20vw;
+    }
+    #ip1 {
+        padding-right: 5vw;
+    }
+    #ip2 {
+        padding-right: 5vw;
+    }
+    .wrapper p {
+        font-size: 4vh;
+        line-height: 5vh;
+        padding-bottom: 5vh;
+    }
+    #library {
+        margin-top: 0vh;
+        margin-bottom: 5vh;
+    }
+    .wrapper a {
+        font-size: 9.5vw;
+        width: 70vw;
+    }
+    span.span1 {
+        display: none;
+    }
+}
+@media only screen and (max-width: 480px){
     .navbar-left {
         overflow: hidden;
         position: fixed;
-        width: 400%;
+        width: 800%;
         z-index: 2;
         
         -moz-transform: translateX(-10vh);
@@ -271,7 +326,7 @@ header {
     .navbar-right {
         overflow: hidden;
         position: fixed;
-        width: 400%;
+        width: 800%;
         z-index: 2;
             
         -moz-transform: translateX(-132vh) translateY(89vh);

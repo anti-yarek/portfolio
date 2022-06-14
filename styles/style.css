@@ -420,12 +420,12 @@ button {
     }
     .hanky-panky img{
         height: 80vh;
-        width: 25vw;
+        width: 20vw;
         position: relative;
     }
     .hanky-panky img:hover {
         height: 80vh;
-        width: 25vw;
+        width: 20vw;
         position: relative;
         top: 0;
         margin: -10vh -25vw -10vh -25vw;
@@ -615,12 +615,12 @@ button {
     }
     .hanky-panky img{
         height: 80vh;
-        width: 25vw;
+        width: 20vw;
         position: relative;
     }
     .hanky-panky img:hover {
         height: 80vh;
-        width: 25vw;
+        width: 20vw;
         position: relative;
         top: 0;
         margin: -10vh -25vw -10vh -25vw;
