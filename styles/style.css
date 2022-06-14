@@ -3,6 +3,7 @@ body {
     height: 100vh;
     width: 500vw;
     overflow: hidden;
+    background-color: #FFC9E0;
 }
 header {
     overflow: hidden;
