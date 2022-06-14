@@ -1138,7 +1138,7 @@ button {
         top: 0;
         object-fit: fill;
         position: relative;
-        left: -5vw;
+        margin-left: -10vw;
     }
     .placeholder a img:hover {
         height: 70vh;
@@ -1150,7 +1150,7 @@ button {
         background-origin: inherit;
         background-position: center;
         background-size: 70vw;
-        left: -5vw;
+        margin-left: -10vw;
     }
     .placeholder a img:active {
         height: 100vh;
