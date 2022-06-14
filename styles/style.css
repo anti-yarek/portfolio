@@ -318,130 +318,7 @@ button {
         overflow: hidden;
         height: 100vh;
     }
-    .navbar-left {
-        overflow: hidden;
-        position: fixed;
-        width: 400%;
-        z-index: 2;
-        
-        -moz-transform: translateX(-10vh);
-        -moz-transform-origin: top left;
-        -webkit-transform: translateX(-10vh);
-        -webkit-transform-origin: top left;
-        transform: translateX(-10vh);
-        transform-origin: top left;
-      
-        -moz-animation: my-animation 15s linear infinite;
-        -webkit-animation: my-animation 15s linear infinite;
-        animation: my-animation 15s linear infinite;
-    }
-    
-    /* for Firefox */
-    @-moz-keyframes my-animation {
-      from {-moz-transform: translateX(-10vh);
-            -moz-transform-origin: top left; }
-      to {  -moz-transform: translateX(-142vh);
-            -moz-transform-origin: top left; }
-    }
-    
-    /* for Chrome */
-    @-webkit-keyframes my-animation {
-      from {-webkit-transform: translateX(-10vh);
-            -webkit-transform-origin: top left; }
-      to {  -webkit-transform: translateX(-142vh);
-            -webkit-transform-origin: top left; }
-    }
-    
-    @keyframes my-animation {
-      from {
-        -moz-transform: translateX(-10vh);
-        -moz-transform-origin: top left;
-        -webkit-transform: translateX(-10vh);
-        -webkit-transform-origin: top left;
-        transform: translateX(-10vh);
-        transform-origin: top left;
-      }
-      to {
-        -moz-transform: translateX(-142vh);
-        -moz-transform-origin: top left;
-        -webkit-transform: translateX(-142vh);
-        -webkit-transform-origin: top left;
-        transform: translateX(-142vh);
-        transform-origin: top left;
-      }
-    }
-    .navbar-left a {
-        float: left;
-        display: block;
-        text-align: center;
-        font-family: Shatter;
-        text-decoration: none;
-        text-transform: uppercase;
-        font-size: 8vh;
-        padding: 1.5vh;
-    }
-    .navbar-right {
-        overflow: hidden;
-        position: fixed;
-        width: 400%;
-        z-index: 2;
-            
-        -moz-transform: translateX(-132vh) translateY(89vh);
-        -moz-transform-origin: bottom left;
-        -webkit-transform: translateX(-132vh) translateY(89vh);
-        -webkit-transform-origin: bottom left;
-        transform: translateX(-132vh) translateY(89vh);
-        transform-origin: bottom left;
-      
-        -moz-animation: my-animation2 15s linear infinite;
-        -webkit-animation: my-animation2 15s linear infinite;
-        animation: my-animation2 15s linear infinite;
-    }
-    
-    /* for Firefox */
-    @-moz-keyframes my-animation2 {
-      from {-moz-transform: translateX(-132vh) translateY(89vh);
-            -moz-transform-origin: bottom left; }
-      to {  -moz-transform: translateX(0vh) translateY(89vh);
-            -moz-transform-origin: bottom left; }
-    }
-    
-    /* for Chrome */
-    @-webkit-keyframes my-animation2 {
-      from {-webkit-transform: translateX(-132vh) translateY(89vh);
-            -webkit-transform-origin: bottom left; }
-      to {  -webkit-transform: translateX(0vh) translateY(89vh);
-            -webkit-transform-origin: bottom left; }
-    }
-    
-    @keyframes my-animation2 {
-      from {
-        -moz-transform: translateX(-132vh) translateY(89vh);
-        -moz-transform-origin: bottom left;
-        -webkit-transform: translateX(-132vh) translateY(89vh);
-        -webkit-transform-origin: bottom left;
-        transform: translateX(-132vh) translateY(89vh);
-        transform-origin: bottom left;
-      }
-      to {
-        -moz-transform: translateX(0vh) translateY(89vh);
-        -moz-transform-origin: bottom left;
-        -webkit-transform: translateX(0vh) translateY(89vh);
-        -webkit-transform-origin: bottom left;
-        transform: translateX(0vh) translateY(89vh);
-        transform-origin: bottom left;
-      }
-    }
-    .navbar-right a {
-        float: left;
-        display: block;
-        text-align: center;
-        font-family: Shatter;
-        text-decoration: none;
-        text-transform: uppercase;
-        font-size: 8vh;
-        padding: 1.5vh;
-    }
+
     .home::-webkit-scrollbar { 
         display: none;  /* Safari and Chrome */
     }
@@ -485,13 +362,13 @@ button {
         color: #F31C29;
         font-weight: bold;
         text-transform: uppercase;
-        font-size: 6vw;
-        line-height: 7vw;
+        font-size: 5vw;
+        line-height: 6vw;
         margin-top: -5vw;
         margin-left: 0vw;
     }
     .intro img {
-        max-width: 6vw;
+        max-width: 5vw;
         transform: rotate(0deg);
         margin-top: 5vh;
         margin-bottom: 5vh;
@@ -500,21 +377,21 @@ button {
     .intro h2 {
         font-family: Folio;
         color: #F31C29;
-        font-size: 4vw;
+        font-size: 3vw;
         text-transform: lowercase;
         font-weight: bold;
         margin-left: 0vw;
     }
     .placeholder a img{
         height: 70vh;
-        width: 70vw;
+        width: 60vw;
         top: 0;
         object-fit: fill;
         position: relative;
     }
     .placeholder a img:hover {
         height: 70vh;
-        width: 70vw;
+        width: 60vw;
         top: 0;
         position: relative;
         object-fit: fill;
@@ -573,12 +450,12 @@ button {
     }
     .zeppelin img {
         height: 50vh;
-        width: 70vw;
+        width: 60vw;
         position: relative;
     }
     .zeppelin img:hover {
         height: 50vh;
-        width: 70vw;
+        width: 60vw;
         position: relative;
         top: 0;
         margin: -25vh -10vw -25vh -10vw;
@@ -637,130 +514,7 @@ button {
         overflow: hidden;
         height: 100vh;
     }
-    .navbar-left {
-        overflow: hidden;
-        position: fixed;
-        width: 400%;
-        z-index: 2;
-        
-        -moz-transform: translateX(-10vh);
-        -moz-transform-origin: top left;
-        -webkit-transform: translateX(-10vh);
-        -webkit-transform-origin: top left;
-        transform: translateX(-10vh);
-        transform-origin: top left;
-      
-        -moz-animation: my-animation 15s linear infinite;
-        -webkit-animation: my-animation 15s linear infinite;
-        animation: my-animation 15s linear infinite;
-    }
-    
-    /* for Firefox */
-    @-moz-keyframes my-animation {
-      from {-moz-transform: translateX(-10vh);
-            -moz-transform-origin: top left; }
-      to {  -moz-transform: translateX(-142vh);
-            -moz-transform-origin: top left; }
-    }
-    
-    /* for Chrome */
-    @-webkit-keyframes my-animation {
-      from {-webkit-transform: translateX(-10vh);
-            -webkit-transform-origin: top left; }
-      to {  -webkit-transform: translateX(-142vh);
-            -webkit-transform-origin: top left; }
-    }
-    
-    @keyframes my-animation {
-      from {
-        -moz-transform: translateX(-10vh);
-        -moz-transform-origin: top left;
-        -webkit-transform: translateX(-10vh);
-        -webkit-transform-origin: top left;
-        transform: translateX(-10vh);
-        transform-origin: top left;
-      }
-      to {
-        -moz-transform: translateX(-142vh);
-        -moz-transform-origin: top left;
-        -webkit-transform: translateX(-142vh);
-        -webkit-transform-origin: top left;
-        transform: translateX(-142vh);
-        transform-origin: top left;
-      }
-    }
-    .navbar-left a {
-        float: left;
-        display: block;
-        text-align: center;
-        font-family: Shatter;
-        text-decoration: none;
-        text-transform: uppercase;
-        font-size: 8vh;
-        padding: 1.5vh;
-    }
-    .navbar-right {
-        overflow: hidden;
-        position: fixed;
-        width: 400%;
-        z-index: 2;
-            
-        -moz-transform: translateX(-132vh) translateY(89vh);
-        -moz-transform-origin: bottom left;
-        -webkit-transform: translateX(-132vh) translateY(89vh);
-        -webkit-transform-origin: bottom left;
-        transform: translateX(-132vh) translateY(89vh);
-        transform-origin: bottom left;
-      
-        -moz-animation: my-animation2 15s linear infinite;
-        -webkit-animation: my-animation2 15s linear infinite;
-        animation: my-animation2 15s linear infinite;
-    }
-    
-    /* for Firefox */
-    @-moz-keyframes my-animation2 {
-      from {-moz-transform: translateX(-132vh) translateY(89vh);
-            -moz-transform-origin: bottom left; }
-      to {  -moz-transform: translateX(0vh) translateY(89vh);
-            -moz-transform-origin: bottom left; }
-    }
-    
-    /* for Chrome */
-    @-webkit-keyframes my-animation2 {
-      from {-webkit-transform: translateX(-132vh) translateY(89vh);
-            -webkit-transform-origin: bottom left; }
-      to {  -webkit-transform: translateX(0vh) translateY(89vh);
-            -webkit-transform-origin: bottom left; }
-    }
-    
-    @keyframes my-animation2 {
-      from {
-        -moz-transform: translateX(-132vh) translateY(89vh);
-        -moz-transform-origin: bottom left;
-        -webkit-transform: translateX(-132vh) translateY(89vh);
-        -webkit-transform-origin: bottom left;
-        transform: translateX(-132vh) translateY(89vh);
-        transform-origin: bottom left;
-      }
-      to {
-        -moz-transform: translateX(0vh) translateY(89vh);
-        -moz-transform-origin: bottom left;
-        -webkit-transform: translateX(0vh) translateY(89vh);
-        -webkit-transform-origin: bottom left;
-        transform: translateX(0vh) translateY(89vh);
-        transform-origin: bottom left;
-      }
-    }
-    .navbar-right a {
-        float: left;
-        display: block;
-        text-align: center;
-        font-family: Shatter;
-        text-decoration: none;
-        text-transform: uppercase;
-        font-size: 8vh;
-        padding: 1.5vh;
-    }
+
     .home::-webkit-scrollbar { 
         display: none;  /* Safari and Chrome */
     }
@@ -803,13 +557,13 @@ button {
         color: #F31C29;
         font-weight: bold;
         text-transform: uppercase;
-        font-size: 6vw;
-        line-height: 7vw;
+        font-size: 5vw;
+        line-height: 6vw;
         margin-top: -5vw;
         margin-left: 0vw;
     }
     .intro img {
-        max-width: 6vw;
+        max-width: 5vw;
         transform: rotate(0deg);
         margin-top: 5vh;
         margin-bottom: 5vh;
@@ -818,21 +572,21 @@ button {
     .intro h2 {
         font-family: Folio;
         color: #F31C29;
-        font-size: 4vw;
+        font-size: 3vw;
         text-transform: lowercase;
         font-weight: bold;
         margin-left: 0vw;
     }
     .placeholder a img{
         height: 70vh;
-        width: 70vw;
+        width: 60vw;
         top: 0;
         object-fit: fill;
         position: relative;
     }
     .placeholder a img:hover {
         height: 70vh;
-        width: 70vw;
+        width: 60vw;
         top: 0;
         position: relative;
         object-fit: fill;
@@ -891,12 +645,12 @@ button {
     }
     .zeppelin img {
         height: 50vh;
-        width: 70vw;
+        width: 60vw;
         position: relative;
     }
     .zeppelin img:hover {
         height: 50vh;
-        width: 70vw;
+        width: 60vw;
         position: relative;
         top: 0;
         margin: -25vh -10vw -25vh -10vw;
@@ -945,7 +699,7 @@ button {
         background: #F31C29;
     }
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 480px) {
     .navbar-left {
         overflow: hidden;
         position: fixed;
