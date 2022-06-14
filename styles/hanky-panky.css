@@ -373,6 +373,9 @@ to {
       width: 80vw;
       padding-bottom: 5vh;
   }
+  #space {
+    margin-top: -11vh;
+  }
   .wrapper2 {
       width: 80vw;
       transform: translateY(-100vh) translateX(10vw);
