@@ -1113,7 +1113,7 @@ button {
         text-transform: uppercase;
         font-size: 5vh;
         line-height: 6vh;
-        margin-top: -20vh;
+        margin-top: 15vh;
         margin-left: 0vw;
     }
     .intro img {
@@ -1126,14 +1126,14 @@ button {
     .intro h2 {
         font-family: Folio;
         color: #F31C29;
-        font-size: 5vh;
+        font-size: 4vh;
         text-transform: lowercase;
         font-weight: bold;
         margin-left: 0vw;
-        line-height: 6vh;
+        line-height: 5vh;
     }
     .placeholder a img{
-        height: 70vh;
+        height: auto;
         width: 80vw;
         top: 0;
         object-fit: fill;
@@ -1143,7 +1143,7 @@ button {
         margin-right: auto;
     }
     .placeholder a img:hover {
-        height: 70vh;
+        height: auto;
         width: 80vw;
         top: 0;
         position: relative;
@@ -1175,12 +1175,12 @@ button {
         opacity: 0;
     }
     .hanky-panky img{
-        height: 80vh;
+        height: auto;
         width: 35vw;
         position: relative;
     }
     .hanky-panky img:hover {
-        height: 80vh;
+        height: auto;
         width: 35vw;
         position: relative;
         top: 0;
@@ -1205,7 +1205,7 @@ button {
         opacity: 0;
     }
     .zeppelin img {
-        height: 50vh;
+        height: auto;
         width: 90vw;
         position: relative;
         display: block;
@@ -1213,7 +1213,7 @@ button {
         margin-left: auto;
     }
     .zeppelin img:hover {
-        height: 50vh;
+        height: auto;
         width: 90vw;
         position: relative;
         top: 0;
@@ -1241,13 +1241,13 @@ button {
         opacity: 0;
     }
     .kremlin img {
-        height: 70vh;
+        height: auto;
         width: 60vw;
         position: relative;
         margin-top: -30vh;
     }
     .kremlin img:hover {
-        height: 70vh;
+        height: auto;
         width: 60vw;
         position: relative;
         top: 0;
