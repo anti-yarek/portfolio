@@ -1206,7 +1206,7 @@ button {
     }
     .zeppelin img {
         height: auto;
-        width: 40vh;
+        width: 60vh;
         position: relative;
         display: block;
         margin-left: auto;
@@ -1214,7 +1214,7 @@ button {
     }
     .zeppelin img:hover {
         height: auto;
-        width: 40vh;
+        width: 60vh;
         position: relative;
         top: 0;
         margin: -25vh -10vw -25vh -10vw;
