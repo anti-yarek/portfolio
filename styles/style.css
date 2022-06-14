@@ -1105,7 +1105,7 @@ button {
     }
     .intro {
         height: 100vh;
-        margin: 15vh;
+        margin: 10vh;
     }
     .intro h1 {
         font-family: Folio;
@@ -1114,7 +1114,7 @@ button {
         text-transform: uppercase;
         font-size: 5vh;
         line-height: 6vh;
-        margin-top: 10vh;
+        margin-top: 15vh;
         margin-left: 0vw;
     }
     .intro img {
@@ -1135,14 +1135,14 @@ button {
     }
     .placeholder a img{
         height: auto;
-        width: 120%;
+        width: 100%;
         top: 0;
         object-fit: fill;
         position: relative;
     }
     .placeholder a img:hover {
         height: auto;
-        width: 120%;
+        width: 100%;
         top: 0;
         position: relative;
         object-fit: fill;
@@ -1201,12 +1201,12 @@ button {
     }
     .zeppelin img {
         height: auto;
-        width: 120%;
+        width: 100%;
         position: relative;
     }
     .zeppelin img:hover {
         height: auto;
-        width: 120%;
+        width: 100%;
         position: relative;
         top: 0;
         margin: -25vh -10vw -25vh -10vw;
