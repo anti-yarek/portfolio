@@ -1105,7 +1105,7 @@ button {
     }
     .intro {
         height: 100vh;
-        margin: 10vh;
+        margin: 15vh;
     }
     .intro h1 {
         font-family: Folio;
@@ -1135,14 +1135,14 @@ button {
     }
     .placeholder a img{
         height: auto;
-        width: 99%;
+        width: 120%;
         top: 0;
         object-fit: fill;
         position: relative;
     }
     .placeholder a img:hover {
         height: auto;
-        width: 99%;
+        width: 120%;
         top: 0;
         position: relative;
         object-fit: fill;
@@ -1201,12 +1201,12 @@ button {
     }
     .zeppelin img {
         height: auto;
-        width: 99%;
+        width: 120%;
         position: relative;
     }
     .zeppelin img:hover {
         height: auto;
-        width: 99%;
+        width: 120%;
         position: relative;
         top: 0;
         margin: -25vh -10vw -25vh -10vw;
