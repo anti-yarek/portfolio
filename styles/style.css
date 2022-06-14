@@ -1134,16 +1134,17 @@ button {
     }
     .placeholder a img{
         height: auto;
-        width: 40vh;
+        width: 60vh;
         top: 0;
         object-fit: fill;
         position: relative;
         display: block;
         margin-right: auto;
+        margin-left: auto;
     }
     .placeholder a img:hover {
         height: auto;
-        width: 40vh;
+        width: 60vh;
         top: 0;
         position: relative;
         object-fit: fill;
@@ -1153,6 +1154,7 @@ button {
         background-size: 70vw;
         display: block;
         margin-right: auto;
+        margin-left: auto;
     }
     .placeholder a img:active {
         height: 100vh;
