@@ -191,7 +191,7 @@ to {
       margin-left: 15vw;
   }
 }
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 480px){
   .navbar-left {
       overflow: hidden;
       position: fixed;
