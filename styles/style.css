@@ -1134,15 +1134,15 @@ button {
     }
     .placeholder a img{
         height: auto;
-        width: 80vw;
+        width: 40vh;
         top: 0;
         object-fit: fill;
         position: relative;
-        margin-left: 10vw;
+        display: block;
     }
     .placeholder a img:hover {
         height: auto;
-        width: 80vw;
+        width: 40vh;
         top: 0;
         position: relative;
         object-fit: fill;
@@ -1150,7 +1150,7 @@ button {
         background-origin: inherit;
         background-position: center;
         background-size: 70vw;
-        margin-left: 10vw;
+        display: block;
     }
     .placeholder a img:active {
         height: 100vh;
@@ -1202,13 +1202,13 @@ button {
     }
     .zeppelin img {
         height: auto;
-        width: 90vw;
+        width: 40vh;
         position: relative;
         margin-left: 5vw;
     }
     .zeppelin img:hover {
         height: auto;
-        width: 90vw;
+        width: 40vh;
         position: relative;
         top: 0;
         margin: -25vh -10vw -25vh -10vw;
@@ -1217,7 +1217,7 @@ button {
         background-origin: inherit;
         background-position: center;
         background-size: 70vw;
-        margin-left: 5vw;
+        display: block;
     }
     .zeppelin img:active {
         height: 100vh;
@@ -1236,7 +1236,8 @@ button {
         height: auto;
         width: 60vw;
         position: relative;
-        margin-top: -20vh;
+        margin-top: -5vh;
+        margin-bottom: 15vh;
     }
     .kremlin img:hover {
         height: auto;
@@ -1244,7 +1245,7 @@ button {
         position: relative;
         top: 0;
         padding: 15vh 20vw 15vh 20vw;
-        margin: -45vh -20vw -15vh -20vw;
+        margin: -20vh -20vw 15vh -20vw;
         background: none;
         background-origin: inherit;
         background-position: center;
