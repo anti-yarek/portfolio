@@ -1111,9 +1111,9 @@ button {
         color: #F31C29;
         font-weight: bold;
         text-transform: uppercase;
-        font-size: 6vh;
-        line-height: 7vh;
-        margin-top: -10vh;
+        font-size: 5vh;
+        line-height: 6vh;
+        margin-top: -20vh;
         margin-left: 0vw;
     }
     .intro img {
@@ -1126,11 +1126,11 @@ button {
     .intro h2 {
         font-family: Folio;
         color: #F31C29;
-        font-size: 6vh;
+        font-size: 5vh;
         text-transform: lowercase;
         font-weight: bold;
         margin-left: 0vw;
-        line-height: 7vh;
+        line-height: 6vh;
     }
     .placeholder a img{
         height: 70vh;
