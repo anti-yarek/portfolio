@@ -155,7 +155,7 @@ to {
 .bg h1{
     font-family: Folio;
     font-weight: bold;
-    font-size: 10vh;
+    font-size: 5vw;
     color: #FFC9E0;
     margin-top: 10vh;
     margin-left: 15vw;
@@ -163,9 +163,41 @@ to {
 .bg h2 {
     font-family: Folio;
     font-weight: bold;
-    font-size: 7vh;
+    font-size: 3vw;
     color: #FFC9E0;
     margin-left: 15vw;
+    margin-right: 15vw;
+    line-height: 4vw;
+    margin-top: 10vh;
+}
+.caps {
+    text-transform: uppercase;
+}
+.bg a {
+  padding-bottom: 1vh;
+  display: inline-block;
+  position: relative;
+  text-decoration: none;
+  color: #FFC9E0;
+}
+.bg a:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 0.5vw;
+  bottom: 0;
+  left: 0;
+  background-color: #FFC9E0;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+.bg a:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+#last {
+  padding-bottom: 10vh;
 }
 @font-face {
     font-family: Folio;
@@ -183,12 +215,12 @@ to {
 }
 @media only screen and (max-width: 1007px) {
   .bg h1{
-    font-size: 9vh;
+    font-size: 5vw;
     margin-top: 10vh;
     margin-left: 15vw;
   }
   .bg h2 {
-      font-size: 6vh;
+      font-size: 3vw;
       margin-left: 15vw;
   }
 }
@@ -318,13 +350,13 @@ to {
       padding: 1.5vh;
   }
   .bg h1{
-    font-size: 7vh;
+    font-size: 5vh;
     margin-top: 16vh;
     margin-left: 10vw;
   }
   .bg h2 {
       font-size: 4vh;
-      line-height: 6vh;
+      line-height: 5vh;
       margin-left: 10vw;
   }
 }
