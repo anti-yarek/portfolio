@@ -151,6 +151,7 @@ to {
     transform-origin: top left;
     transform: translateY(-100vh);
     position: absolute;
+    z-index: 1;
 }
 .bg h1{
     font-family: Folio;
@@ -171,38 +172,45 @@ to {
     margin-top: 10vh;
 }
 .introduction {
-  display: flex;
-  flex-direction: row;
-  width: 70vw;
+    display: flex;
+    flex-direction: row;
+    width: 85vw;
+    float: right;
+}
+.introduction h2{
+  margin-right: 5vw;
+  width: 35vw;
+  margin-left: 0vw;
+  margin-bottom: 10vh;
 }
 .caps {
     text-transform: uppercase;
 }
 .bg a {
-  padding-bottom: 1vh;
-  display: inline-block;
-  position: relative;
-  text-decoration: none;
-  color: #FFC9E0;
+    padding-bottom: 1vh;
+    display: inline-block;
+    position: relative;
+    text-decoration: none;
+    color: #FFC9E0;
 }
 .bg a:after {
-  content: '';
-  position: absolute;
-  width: 100%;
-  transform: scaleX(0);
-  height: 0.5vw;
-  bottom: 0;
-  left: 0;
-  background-color: #FFC9E0;
-  transform-origin: bottom right;
-  transition: transform 0.25s ease-out;
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 0.5vw;
+    bottom: 0;
+    left: 0;
+    background-color: #FFC9E0;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
 }
 .bg a:hover:after {
-  transform: scaleX(1);
-  transform-origin: bottom left;
+    transform: scaleX(1);
+    transform-origin: bottom left;
 }
 #last {
-  padding-bottom: 10vh;
+    padding-bottom: 10vh;
 }
 @font-face {
     font-family: Folio;
