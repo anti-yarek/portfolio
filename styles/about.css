@@ -170,6 +170,11 @@ to {
     line-height: 4vw;
     margin-top: 10vh;
 }
+.introduction {
+  display: flex;
+  flex-direction: row;
+  width: 70vw;
+}
 .caps {
     text-transform: uppercase;
 }
