@@ -393,13 +393,36 @@ img {
       padding: 1.5vh;
   }
   .bg h1{
-    font-size: 5vh;
-    margin-top: 16vh;
+    font-size: 7vh;
+    margin-top: 20vh;
     margin-left: 10vw;
   }
   .bg h2 {
       font-size: 4vh;
       line-height: 5vh;
       margin-left: 10vw;
+  }
+  .introduction {
+    display: flex;
+    flex-direction: column;
+    width: 85vw;
+    float: right;
+  }
+  .introduction h2 {
+    margin-right: 10vw;
+    width: 70vw;
+    margin-left: 0vw;
+    margin-bottom: 10vh;
+  }
+  .tablet {
+    display: none;
+  }
+  img {
+    width: 80vw;
+    height: 102vw;
+    margin-top: 0.5vh;
+  }
+  .break {
+    display: none;
   }
 }
