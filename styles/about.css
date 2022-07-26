@@ -406,7 +406,7 @@ img {
     display: flex;
     flex-direction: column;
     width: 85vw;
-    float: right;
+    float: left;
   }
   .introduction h2 {
     margin-right: 10vw;
