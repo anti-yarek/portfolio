@@ -393,9 +393,10 @@ img {
       padding: 1.5vh;
   }
   .bg h1{
-    font-size: 7vh;
+    font-size: 5vh;
     margin-top: 20vh;
     margin-left: 10vw;
+    margin-bottom: 5vh;
   }
   .bg h2 {
       font-size: 4vh;
@@ -405,7 +406,7 @@ img {
   .introduction {
     display: flex;
     flex-direction: column;
-    width: 85vw;
+    width: 80vw;
     float: left;
   }
   .introduction h2 {
@@ -421,6 +422,7 @@ img {
     width: 80vw;
     height: 102vw;
     margin-top: 0.5vh;
+    margin-left: 10vw;
   }
   .break {
     display: none;
