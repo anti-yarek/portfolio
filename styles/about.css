@@ -428,7 +428,11 @@ img {
   .break {
     display: none;
   }
+  .caps {
+    margin-left: -10vw;
+  }
   #last {
     margin-bottom: 20vh;
+    margin-left: -10vw;
   }
 }
