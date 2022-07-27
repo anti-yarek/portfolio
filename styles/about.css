@@ -401,8 +401,8 @@ img {
   .bg h2 {
       font-size: 4vh;
       line-height: 5vh;
-      margin-left: 20vw;
-      margin-top: 0vh;
+      margin-left: 10vw;
+      margin-top: 5vh;
   }
   .introduction {
     display: flex;
@@ -413,7 +413,7 @@ img {
   .introduction h2 {
     margin-right: 10vw;
     width: 80vw;
-    margin-left: 0vw;
+    margin-left: 10vw;
     margin-bottom: 10vh;
   }
   .tablet {
@@ -422,7 +422,7 @@ img {
   img {
     width: 80vw;
     height: 102vw;
-    margin-top: 0.5vh;
+    margin-top: 0vh;
     margin-left: 10vw;
   }
   .break {
@@ -432,7 +432,8 @@ img {
     margin-left: -10vw;
   }
   #last {
-    margin-bottom: 20vh;
-    margin-left: -10vw;
+    padding-bottom: 20vh;
+    margin-left: 10vw;
+    margin-right: 10vw;
   }
 }
