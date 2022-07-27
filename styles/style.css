@@ -868,10 +868,12 @@ button {
         color: #F31C29;
         font-weight: bold;
         text-transform: uppercase;
-        font-size: 5vh;
-        line-height: 6vh;
+        font-size: 6vh;
+        line-height: 7vh;
         margin-top: 15vh;
         margin-left: 0vw;
+        padding-left: 10vw;
+        padding-right: 10vw;
     }
     .intro img {
         max-width: 6vh;
