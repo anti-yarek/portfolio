@@ -267,7 +267,7 @@ img {
       margin-top: 0.5vh;
     }
 }
-@media only screen and (max-width: 700px){
+@media only screen and (max-width: 480px){
   .navbar-left {
       overflow: hidden;
       position: fixed;
@@ -399,8 +399,8 @@ img {
     margin-bottom: 0vh;
   }
   .bg h2 {
-      font-size: 4vh;
-      line-height: 5vh;
+      font-size: 3vh;
+      line-height: 4vh;
       margin-left: 10vw;
       margin-top: 5vh;
   }
@@ -440,5 +440,8 @@ img {
   .bg {
     display: flex;
     flex-direction: column;
+  }
+  .bg a:after {
+    height: 0.5vh;
   }
 }
