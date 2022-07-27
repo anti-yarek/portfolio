@@ -396,12 +396,13 @@ img {
     font-size: 6vh;
     margin-top: 20vh;
     margin-left: 10vw;
-    margin-bottom: 5vh;
+    margin-bottom: 0vh;
   }
   .bg h2 {
       font-size: 4vh;
       line-height: 5vh;
       margin-left: 20vw;
+      margin-top: 0vh;
   }
   .introduction {
     display: flex;
@@ -426,5 +427,8 @@ img {
   }
   .break {
     display: none;
+  }
+  #last {
+    margin-bottom: 20vh;
   }
 }
