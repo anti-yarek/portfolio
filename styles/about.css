@@ -412,7 +412,7 @@ img {
   .introduction h2 {
     margin-right: 10vw;
     width: 80vw;
-    margin-left: 10vw;
+    margin-left: 0vw;
     margin-bottom: 10vh;
   }
   .tablet {
