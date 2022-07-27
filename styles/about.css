@@ -267,7 +267,7 @@ img {
       margin-top: 0.5vh;
     }
 }
-@media only screen and (max-width: 480px){
+@media only screen and (max-width: 700px){
   .navbar-left {
       overflow: hidden;
       position: fixed;
@@ -401,7 +401,7 @@ img {
   .bg h2 {
       font-size: 4vh;
       line-height: 5vh;
-      margin-left: 10vw;
+      margin-left: 20vw;
       margin-top: 5vh;
   }
   .introduction {
@@ -429,11 +429,11 @@ img {
     display: none;
   }
   .caps {
-    margin-left: -10vw;
+    margin-left: 0vw;
   }
   #last {
     padding-bottom: 20vh;
-    margin-left: 10vw;
-    margin-right: 10vw;
+    margin-left: 20vw;
+    margin-right: 0vw;
   }
 }
