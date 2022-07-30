@@ -223,6 +223,9 @@ img {
 .tablet {
   display: none;
 }
+.mobile{
+  display: none;
+}
 @font-face {
     font-family: Folio;
     src: url(../assets/fonts/Folio-Bold.woff);
@@ -444,5 +447,8 @@ img {
   }
   .bg a:after {
     height: 0.5vh;
+  }
+  .mobile {
+    display: inline;
   }
 }
