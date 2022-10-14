@@ -400,9 +400,9 @@ header {
         width: 200vw;
         height: 200vh;
         padding-bottom: 5vh;
-        transform: scale(0.6);
-        -webkit-transform: scale(0.6);
-        -moz-transform: scale(0.6);
+        transform: scale(0.4);
+        -webkit-transform: scale(0.4);
+        -moz-transform: scale(0.4);
     }
     .wrapper img {
         width: 80vw;
