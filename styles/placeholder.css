@@ -398,8 +398,11 @@ header {
     }
     .wrapper iframe {
         width: 80vw;
-        height: 173.4vh;
+        height: 80vh;
         padding-bottom: 5vh;
+        transform: scale(0.7);
+        -webkit-transform: scale(0.7);
+        -moz-transform: scale(0.7);
     }
     .wrapper img {
         width: 80vw;
