@@ -397,8 +397,8 @@ header {
         margin-bottom: 0vh;
     }
     .wrapper iframe {
-        width: 80vw;
-        height: 100vh;
+        width: 114.286vw;
+        height: 114.286vh;
         padding-bottom: 5vh;
         transform: scale(0.7);
         -webkit-transform: scale(0.7);
