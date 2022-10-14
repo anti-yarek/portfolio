@@ -397,12 +397,12 @@ header {
         margin-bottom: 0vh;
     }
     .wrapper iframe {
-        width: 80vw;
-        height: 120vh;
+        width: 200vw;
+        height: 200vh;
         padding-bottom: 5vh;
-        transform: scale(0.9);
-        -webkit-transform: scale(0.9);
-        -moz-transform: scale(0.9);
+        transform: scale(0.6);
+        -webkit-transform: scale(0.6);
+        -moz-transform: scale(0.6);
     }
     .wrapper img {
         width: 80vw;
