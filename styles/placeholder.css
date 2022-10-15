@@ -400,6 +400,9 @@ header {
         width: 200vw;
         height: 200vh;
         padding-bottom: 5vh;
+        transform-origin: top left;
+        -webkit-transform-origin: top left;
+        -moz-transform-origin: top left;
         transform: scale(0.4);
         -webkit-transform: scale(0.4);
         -moz-transform: scale(0.4);
