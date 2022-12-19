@@ -156,21 +156,22 @@ to {
 .bg h1{
     font-family: Folio;
     font-weight: bold;
-    font-size: 5vw;
+    font-size: 3.5vw;
     color: #FFC9E0;
     margin-top: 10vh;
+    margin-bottom: 8vh;
     margin-left: 15vw;
     text-transform: uppercase;
 }
 .bg h2 {
     font-family: Folio;
     font-weight: bold;
-    font-size: 3vw;
+    font-size: 2vw;
     color: #FFC9E0;
     margin-left: 15vw;
     margin-right: 15vw;
-    line-height: 4vw;
-    margin-top: 10vh;
+    line-height: 3vw;
+    margin-top: 8vh;
 }
 .introduction {
     display: flex;
@@ -182,7 +183,15 @@ to {
   margin-right: 5vw;
   width: 35vw;
   margin-left: 0vw;
-  margin-bottom: 10vh;
+  margin-bottom: 8vh;
+  margin-top: 0vh;
+}
+.introduction img{
+  margin-top: -16vh;
+}
+.left-h2 {
+  display: flex;
+  flex-direction: column;
 }
 .caps {
     text-transform: uppercase;
@@ -199,7 +208,7 @@ to {
     position: absolute;
     width: 100%;
     transform: scaleX(0);
-    height: 0.5vw;
+    height: 0.4vw;
     bottom: 0;
     left: 0;
     background-color: #FFC9E0;
