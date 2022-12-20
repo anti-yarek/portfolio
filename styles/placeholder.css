@@ -233,6 +233,7 @@ header {
     .wrapper2 {
         width: 70vw;
         transform: translateY(-100vh) translateX(15vw);
+        margin-bottom: 5vh;
     }
     .iphone img {
         width: 20vw;
@@ -256,10 +257,6 @@ header {
         font-size: 9.5vw;
         width: 70vw;
     }
-    span.span1 {
-        display: none;
-    }
-}
 @media only screen and (max-width: 480px){
     .navbar-left {
         overflow: hidden;
@@ -407,6 +404,7 @@ header {
     .wrapper2 {
         width: 80vw;
         transform: translateY(-100vh) translateX(10vw);
+        margin-bottom: 0vh;
     }
     .iphone img {
         width: 22vw;
@@ -418,7 +416,7 @@ header {
         padding-right: 7vw;
     }
     .wrapper p {
-        font-size: 4vh;
+        font-size: 3.5vh;
         line-height: 5vh;
         padding-bottom: 5vh;
     }
@@ -430,7 +428,4 @@ header {
         font-size: 10.5vw;
         width: 80vw;
     }
-    span.span1 {
-        display: none;
-    }
-}
+}}
