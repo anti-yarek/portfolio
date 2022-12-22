@@ -270,6 +270,7 @@ img {
       flex-direction: column;
       width: 85vw;
       float: right;
+      position: relative;
     }
     .left-h2 {
       position: relative;
@@ -277,7 +278,8 @@ img {
     }
     .ebalo img{
       position: relative;
-      top: 0;
+      top: 15vh;
+      margin-bottom: 20vh;
     }
     .introduction h2 {
       margin-right: 5vw;
@@ -423,16 +425,19 @@ img {
       padding: 1.5vh;
   }
   .bg h1{
-    font-size: 6vh;
-    margin-top: 20vh;
+    font-size: 5vh;
+    margin-top: 0vh;
     margin-left: 10vw;
     margin-bottom: 0vh;
   }
+  #first {
+    margin-top: 17vh;
+  }
   .bg h2 {
-      font-size: 3vh;
-      line-height: 4vh;
+      font-size: 2vh;
+      line-height: 3vh;
       margin-left: 10vw;
-      margin-top: 5vh;
+      margin-top: 3vh;
   }
   .introduction {
     display: flex;
@@ -444,7 +449,8 @@ img {
     margin-right: 10vw;
     width: 80vw;
     margin-left: 10vw;
-    margin-bottom: 5vh;
+    margin-bottom: 3vh;
+    margin-top: 2vh;
   }
   .tablet {
     display: none;
@@ -476,5 +482,15 @@ img {
   }
   .mobile {
     display: inline;
+  }
+  .ebalo img{
+    margin-bottom: 20vh;
+  }
+  .left-h2 {
+    margin-bottom: 5vh;
+  }
+  .left-h2 h2 {
+    margin-bottom: 3vh;
+    margin-top: 3vh;
   }
 }
