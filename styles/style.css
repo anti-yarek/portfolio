@@ -503,6 +503,9 @@ button {
         top: 0;
         background: #F31C29;
     }
+    br .mobile {
+        display: none;
+    }
 }
 @media only screen and (max-width: 767px) {
     body {
@@ -698,6 +701,9 @@ button {
         position: relative;
         top: 0;
         background: #F31C29;
+    }
+    br .mobile {
+        display: none;
     }
 }
 @media only screen and (max-width: 480px) {
@@ -1015,5 +1021,8 @@ button {
     }
     br.br1 {
         display: none;
+    }
+    .mobile {
+        display: inline;
     }
 }
