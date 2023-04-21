@@ -437,8 +437,8 @@ img {
       font-size: 2vh;
       line-height: 3vh;
       margin-left: 10vw;
-      margin-top: 3vh;
-      margin-bottom: 0vh;
+      margin-top: 2vh;
+      margin-bottom: 3vh;
   }
   .introduction {
     display: flex;
