@@ -1,4 +1,4 @@
-@media only screen and (min-width:1281px) {
+@media only screen and (min-width:642px) {
      /* hi-res laptops and desktops */
 
     body {
@@ -333,6 +333,10 @@
     .pp:hover {
         background-color: #F31C29;
     }
+
+    .pp-hover img {
+        transform-origin: top left;
+    }
     .arrow2 {
         max-width: 5vw;
         position: absolute;
@@ -343,9 +347,10 @@
         color: #000;
     }
     .me-1-1 {
-        height: 140vh;
+        width: 55vw;
         position: absolute;
-        transform: translateY(-100vh) translateX(-44vw);
+        transform: translateY(-120vh) translateX(-47vw);
+        transform-origin: center;
 
         animation: me-1-1 0.24s linear 0s infinite alternate;
         -webkit-animation: me-1-1 0.24s linear 0s infinite alternate;
@@ -396,9 +401,10 @@
     }
 
     .me-1-2 {
-        height: 140vh;
+        width: 55vw;
         position: absolute;
-        transform: translateY(-100vh) translateX(-44vw);
+        transform: translateY(-120vh) translateX(-47vw);
+        transform-origin: center;
 
         animation: me-1-2 0.24s linear 0s infinite alternate;
         -webkit-animation: me-1-2 0.24s linear 0s infinite alternate;
@@ -449,9 +455,10 @@
     }
 
     .me-1-3 {
-        height: 140vh;
+        width: 55vw;
         position: absolute;
-        transform: translateY(-100vh) translateX(-44vw);
+        transform: translateY(-120vh) translateX(-47vw);
+        transform-origin: center;
 
         animation: me-1-3 0.24s linear 0s infinite alternate;
         -webkit-animation: me-1-3 0.24s linear 0s infinite alternate;
@@ -502,9 +509,10 @@
     }
 
     .me-1-4 {
-        height: 140vh;
+        width: 55vw;
         position: absolute;
-        transform: translateY(-100vh) translateX(-44vw);
+        transform: translateY(-120vh) translateX(-47vw);
+        transform-origin: center;
 
         animation: me-1-4 0.24s linear 0s infinite alternate;
         -webkit-animation: me-1-4 0.24s linear 0s infinite alternate;
@@ -560,33 +568,34 @@
         margin: 0vh 15vw 0vh 15vw;
         z-index: 2;
     }
+
     .pm-name {
-        height: 100vh;
-        transform: translateY(-10vh) translateX(3vw);
+        width: 50vw;
+        transform: translateY(0vh) translateX(3vw);
         cursor: url("https://anti-yarek.github.io/portfolio/assets/cursor-pointer-bw.png") 50 50, auto;
     }
     .me-2-1 {
-        height: 80vh;
+        width: 28vw;
         position: absolute;
-        transform: translateY(-100vh) translateX(-40vw);
+        transform: translateY(-60vh) translateX(-40vw);
 
         animation: me-2-1 0.24s linear 0s infinite alternate;
         -webkit-animation: me-2-1 0.24s linear 0s infinite alternate;
         -moz-animation: me-2-1 0.24s linear 0s infinite alternate;
     }
     .me-2-2 {
-        height: 80vh;
+        width: 28vw;
         position: absolute;
-        transform: translateY(-100vh) translateX(-40vw);
+        transform: translateY(-60vh) translateX(-40vw);
         
         animation: me-2-2 0.24s linear 0s infinite alternate;
         -webkit-animation: me-2-2 0.24s linear 0s infinite alternate;
         -moz-animation: me-2-2 0.24s linear 0s infinite alternate;
     }
     .me-2-1-reverse {
-        height: 80vh;
+        width: 28vw;
         position: absolute;
-        transform: translateY(-100vh) translateX(13vw) rotate(180deg);
+        transform: translateY(-60vh) translateX(13vw) rotate(180deg);
         
         animation: me-2-1 0.24s linear 0s infinite alternate;
         -webkit-animation: me-2-1 0.24s linear 0s infinite alternate;
@@ -620,9 +629,9 @@
 
 
     .me-2-2-reverse {
-        height: 80vh;
+        width: 28vw;
         position: absolute;
-        transform: translateY(-100vh) translateX(13vw) rotate(180deg);
+        transform: translateY(-60vh) translateX(13vw) rotate(180deg);
 
         animation: me-2-2 0.24s linear 0s infinite alternate;
         -webkit-animation: me-2-2 0.24s linear 0s infinite alternate;
@@ -656,14 +665,14 @@
 
 
     .me-3 {
-        height: 120vh;
+        width: 25vw;
         position: absolute;
-        transform: translateY(-50vh) translateX(-12vw);
+        transform: translateY(-10vh) translateX(-12vw);
     }
     .me-3-top-1 {
-        height: 200vh;
-        position: absolute;
-        transform: translateY(-170vh) translateX(-25vw);
+        width: 55vw;
+        position: fixed;
+        transform: translateY(-133vh) translateX(-27vw);
 
         animation: me-3-top-1 0.24s linear 0s infinite alternate;
         -webkit-animation: me-3-top-1 0.24s linear 0s infinite alternate;
@@ -696,9 +705,9 @@
     }
 
     .me-3-top-2 {
-        height: 200vh;
-        position: absolute;
-        transform: translateY(-170vh) translateX(-25vw);
+        width: 55vw;
+        position: fixed;
+        transform: translateY(-133vh) translateX(-27vw);
 
         animation: me-3-top-2 0.24s linear 0s infinite alternate;
         -webkit-animation: me-3-top-2 0.24s linear 0s infinite alternate;
@@ -731,19 +740,19 @@
     }
 
     #me-3-back {
-        position: absolute;
-        transform: translateY(-60vh) translateX(325vw);
+        position: fixed;
+        transform: translateY(-63vh) translateX(323vw);
         width: 40vw;
         height: 100vh;
         overflow: hidden;
     }
     #me-3-back img {
-        width: auto;
-        height: 200vh;
+        width: 110vw;
+        height: auto;
 
     }
     .me-3-back {
-        height: 200vh;
+        width: 110vw;
         position: relative;
         z-index: 1;
         left: 0;
@@ -754,7 +763,7 @@
     }
 
     @keyframes me-3-back {
-        0%, 49.9% {
+        0%, 49.99% {
             left: -50.5vw;
         }
         50%, 100% {
@@ -763,7 +772,7 @@
         }
     }
     @-webkit-keyframes me-3-back {
-        0%, 49.9% {
+        0%, 49.99% {
             left: -50.5vw;
         }
         50%, 100% {
@@ -772,7 +781,7 @@
         }
     }
     @-moz-keyframes me-3-back {
-        0%, 49.9% {
+        0%, 49.99% {
             left: -50.5vw;
         }
         50%, 100% {
@@ -849,5 +858,128 @@
 
 @media only screen and (max-width:641px)  { 
     /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */ 
-
+    .navbar-left {
+        overflow: hidden;
+        position: fixed;
+        width: 800%;
+        z-index: 2;
+        
+        -moz-transform: translateX(-10vh);
+        -moz-transform-origin: top left;
+        -webkit-transform: translateX(-10vh);
+        -webkit-transform-origin: top left;
+        transform: translateX(-10vh);
+        transform-origin: top left;
+      
+        -moz-animation: my-animation 15s linear infinite;
+        -webkit-animation: my-animation 15s linear infinite;
+        animation: my-animation 15s linear infinite;
+    }
+    
+    /* for Firefox */
+    @-moz-keyframes my-animation {
+      from {-moz-transform: translateX(-10vh);
+            -moz-transform-origin: top left; }
+      to {  -moz-transform: translateX(-142vh);
+            -moz-transform-origin: top left; }
+    }
+    
+    /* for Chrome */
+    @-webkit-keyframes my-animation {
+      from {-webkit-transform: translateX(-10vh);
+            -webkit-transform-origin: top left; }
+      to {  -webkit-transform: translateX(-142vh);
+            -webkit-transform-origin: top left; }
+    }
+    
+    @keyframes my-animation {
+      from {
+        -moz-transform: translateX(-10vh);
+        -moz-transform-origin: top left;
+        -webkit-transform: translateX(-10vh);
+        -webkit-transform-origin: top left;
+        transform: translateX(-10vh);
+        transform-origin: top left;
+      }
+      to {
+        -moz-transform: translateX(-142vh);
+        -moz-transform-origin: top left;
+        -webkit-transform: translateX(-142vh);
+        -webkit-transform-origin: top left;
+        transform: translateX(-142vh);
+        transform-origin: top left;
+      }
+    }
+    .navbar-left a {
+        float: left;
+        display: block;
+        text-align: center;
+        font-family: Shatter;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 8vh;
+        padding: 1.5vh;
+    }
+    .navbar-right {
+        overflow: hidden;
+        position: fixed;
+        width: 800%;
+        z-index: 2;
+            
+        -moz-transform: translateX(-132vh) translateY(89vh);
+        -moz-transform-origin: bottom left;
+        -webkit-transform: translateX(-132vh) translateY(89vh);
+        -webkit-transform-origin: bottom left;
+        transform: translateX(-132vh) translateY(89vh);
+        transform-origin: bottom left;
+      
+        -moz-animation: my-animation2 15s linear infinite;
+        -webkit-animation: my-animation2 15s linear infinite;
+        animation: my-animation2 15s linear infinite;
+    }
+    
+    /* for Firefox */
+    @-moz-keyframes my-animation2 {
+      from {-moz-transform: translateX(-132vh) translateY(89vh);
+            -moz-transform-origin: bottom left; }
+      to {  -moz-transform: translateX(0vh) translateY(89vh);
+            -moz-transform-origin: bottom left; }
+    }
+    
+    /* for Chrome */
+    @-webkit-keyframes my-animation2 {
+      from {-webkit-transform: translateX(-132vh) translateY(89vh);
+            -webkit-transform-origin: bottom left; }
+      to {  -webkit-transform: translateX(0vh) translateY(89vh);
+            -webkit-transform-origin: bottom left; }
+    }
+    
+    @keyframes my-animation2 {
+      from {
+        -moz-transform: translateX(-132vh) translateY(89vh);
+        -moz-transform-origin: bottom left;
+        -webkit-transform: translateX(-132vh) translateY(89vh);
+        -webkit-transform-origin: bottom left;
+        transform: translateX(-132vh) translateY(89vh);
+        transform-origin: bottom left;
+      }
+      to {
+        -moz-transform: translateX(0vh) translateY(89vh);
+        -moz-transform-origin: bottom left;
+        -webkit-transform: translateX(0vh) translateY(89vh);
+        -webkit-transform-origin: bottom left;
+        transform: translateX(0vh) translateY(89vh);
+        transform-origin: bottom left;
+      }
+    }
+    .navbar-right a {
+        float: left;
+        display: block;
+        text-align: center;
+        font-family: Shatter;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 8vh;
+        padding: 1.5vh;
+    }
 }

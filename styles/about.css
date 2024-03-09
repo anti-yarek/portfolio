@@ -1,4 +1,4 @@
-@media only screen and (min-width:1281px) {
+@media only screen and (min-width:642px) {
   /* hi-res laptops and desktops */
 
   header {
@@ -154,6 +154,7 @@
       transform: translateY(-100vh);
       position: absolute;
       z-index: 1;
+      overflow-x: hidden;
   }
   .bg h1{
       font-family: Folio;
@@ -178,15 +179,21 @@
   .introduction {
       display: flex;
       flex-direction: row;
-      width: 85vw;
-      float: right;
+      width: 70vw;
+      margin-left: 15vw;
+      margin-right: 15vw;
   }
   .introduction h2{
-    margin-right: 5vw;
-    width: 35vw;
+    width: 32.5vw;
     margin-left: 0vw;
     margin-bottom: 8vh;
     margin-top: 0vh;
+  }
+  .left-h2 {
+    width: 32.5vw;
+    display: flex;
+    flex-direction: column;
+    margin-right: 5vw;
   }
   .introduction img{
     margin-top: -16vh;
@@ -226,8 +233,7 @@
       line-height: 3vw;
   }
   img {
-      width: 32vw; 
-      height: 41.5vw; 
+      width: 32.5vw;  
       margin-top: -4.5vw; 
       margin-right: 15vw; 
       margin-bottom: 10vh;
