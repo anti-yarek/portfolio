@@ -1,25 +1,25 @@
 @media only screen and (min-width:1281px) {
   /* hi-res laptops and desktops */
 
-body {
-    background-color: #000;
-    height: 100%;
-    width: 100%;
-    overflow: hidden;
-    -ms-overflow-style: none;  /* Internet Explorer 10+ */
-    scrollbar-width: none;  /* Firefox */
-    position: absolute;
+  body {
+      background-color: #000;
+      height: 100%;
+      width: 100%;
+      overflow: hidden;
+      -ms-overflow-style: none;  /* Internet Explorer 10+ */
+      scrollbar-width: none;  /* Firefox */
+      position: absolute;
   }
   body::-webkit-scrollbar { 
-      display: none;  /* Safari and Chrome */
+    display: none;  /* Safari and Chrome */
   }
   .scroll-container {
-    overflow-y: scroll;
-    position: relative;
-    width: 100%;
-    height: 100%;
-    padding-top: 100vh;
-    transform: translateY(-100vh);
+      overflow-y: scroll;
+      position: relative;
+      transform: translateY(-100vh);
+      width: 100%;
+      height: 100%;
+      padding-top: 100vh;
   }
   header {
       overflow: hidden;
@@ -150,56 +150,117 @@ body {
     padding: 1vw;
   }
   .homeButton {
-      color: #F31C29;
-      background-color: #000;
-  }
-  .about {
-      color: #000;
-      background-color: #F31C29;
-  }
+      color: #ffff00;
+      background-color: #000000;
+    }
+    .about {
+      color: #00ffff;
+      background-color: #ff00ff;
+    }
   @font-face {
       font-family: Shatter;
       src: url(../assets/fonts/Shatter_Plain.woff);
   }
   @font-face {
-      font-family: Squealer;
-      src: url(../assets/fonts/squealer.woff);
-  }
+      font-family: Vladimir;
+      src: url(../assets/fonts/VLADIMIR.TTF);
+    }
+    @font-face {
+      font-family: Palatino Linotype;
+      src: url(../assets/fonts/pala.ttf);
+    }
   .wrapper {
-      transform: translateY(-100vh) translateX(15vw);
-      width: 70vw;
-      padding-top: 5vh;
+      max-width: 70vw;
+      display: flex;
+      transform: translateX(15vw);
+      flex-direction: row;
   }
-  .wrapper iframe {
+  .wrapper img {
+      width: 32.3vw;
+      margin-right: 5vw;
+  }
+  .wrapper .wrapper2 {
+    flex-direction: row;
+
+  }
+  .wrapper2 {
       width: 70vw;
-      height: 85vh;
+      transform: translateY(-100vh) translateX(15vw);
+  }
+  .wrapper2 img {
+      width: 70vw;
       padding-bottom: 5vh;
   }
-  .wrapper p {
-      padding-bottom: 3vw;
-      font-family: Squealer;
+  .wrapper2 iframe {
+    height: 80vh;
+    width: 70vw;
+    padding-bottom: 5vh;
+  }
+  .wrapper2 p {
+      font-family: Palatino Linotype;
+      color: #ff00ff;
       font-size: 2vw;
-      line-height: 3vw;
-      color: #F31C29;
-      text-align: center;
+      line-height: 2.5vw;
+      padding-bottom: 3vw;
+      text-align: left;
   }
-  .wrapper a {
-      font-family: Shatter;
-      font-size: 9.5vw;
-      color: #F31C29;
-      text-decoration: none;
-      width: 70vw;
+  .wrapper2 a {
+    font-family: Shatter;
+    font-size: 9.5vw;
+    color: #ffff00;
+    text-decoration: none;
+    width: 70vw;
   }
-  .wrapper h1 {
+  .wrapper2 h1 {
     padding-top: 5vh;
     padding-bottom: 10vh;
     text-align: center;
     font-size: 9.5vw;
     line-height: 8vw;
   }
+
+  .wrapper2 .link-normal {
+      display: block;
+    }
+    
+    .wrapper2 .link-hover {
+      display: none;
+    }
+    
+    .wrapper2:hover .link-normal {
+      display: none;
+    }
+    
+    .wrapper2:hover .link-hover {
+      display: block;
+    }
+
+  #link-to {
+      display: flex;
+      flex-direction: column;
+    }
+    .link-to-horses-normal {
+      width: 70vw;
+      color: #ff00ff;
+      font-family: Vladimir;
+      font-weight: 400;
+      font-size: 7vw;
+      margin-bottom: 5vh;
+      text-align: center;
+    }
+    .link-to-horses-hover {
+      color: #000;
+      background-color: #ff00ff;
+      width: 70vw;
+      font-family: Vladimir;
+      font-weight: 400;
+      font-size: 7vw;
+      margin-bottom: 5vh;
+      text-align: center;
+    }
 }
 
-@media only screen and (max-width:641px) {
+  @media only screen and (max-width:641px) {
   .navbar-left {
       overflow: hidden;
       position: fixed;
@@ -313,45 +374,54 @@ body {
       transform: translateX(0vh) translateY(89vh);
       transform-origin: bottom left;
     }
-  }
-  .navbar-right a {
-      float: left;
+    }
+    .navbar-right a {
+        float: left;
+        display: block;
+        text-align: center;
+        font-family: Shatter;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 8vh;
+        padding: 1.5vh;
+    }
+    .wrapper {
+      margin-top: 11vh;
+      width: 80vw;
+      transform: translateY(-100vh) translateX(10vw);
       display: block;
-      text-align: center;
-      font-family: Shatter;
-      text-decoration: none;
-      text-transform: uppercase;
-      font-size: 8vh;
-      padding: 1.5vh;
   }
-  .wrapper {
-    margin-top: 11vh;
-    transform: translateY(-100vh) translateX(10vw);
-    width: 80vw;
-  }
-  .wrapper iframe {
-    width: 80vw;
-    height: 70vh;
-  }
-  .wrapper h1 {
+  .wrapper2 h1 {
       padding-bottom: 21vh;
   }
-  .wrapper p {
-    padding-bottom: 5vh;
-    font-family: Squealer;
-    font-size: 3vh;
-    line-height: 4.5vh;
-    color: #F31C29;
-    text-align: center;
+  .wrapper img {
+      width: 80vw;
+      padding-bottom: 5vh;
   }
-  .wrapper a {
+  #space {
+    margin-top: -11vh;
+  }
+  .wrapper2 {
+      width: 80vw;
+      transform: translateY(-100vh) translateX(10vw);
+  }
+  .wrapper2 img {
+      width: 80vw;
+      padding-bottom: 5vh;
+  }
+  .wrapper2 p {
+      font-family: Heisei Kaku;
+      font-weight: 900;
+      color: #ed1a25;
+      font-size: 2.5vh;
+      line-height: 4.2vh;
+      padding-bottom: 5vh;
+  }
+  .wrapper2 a {
     font-family: Shatter;
     font-size: 10.5vw;
-    color: #F31C29;
+    color: #ed1a25;
     text-decoration: none;
     width: 80vw;
-  }
-  br.br1 {
-    display: none;
   }
 }

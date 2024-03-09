@@ -1,25 +1,25 @@
 @media only screen and (min-width:1281px) {
-  /* hi-res laptops and desktops */
-
-body {
-    background-color: #000;
-    height: 100%;
-    width: 100%;
-    overflow: hidden;
-    -ms-overflow-style: none;  /* Internet Explorer 10+ */
-    scrollbar-width: none;  /* Firefox */
-    position: absolute;
+  /* hi-res laptops and desktops */  
+  
+  body {
+      background-color: white;
+      height: 100%;
+      width: 100%;
+      overflow: hidden;
+      -ms-overflow-style: none;  /* Internet Explorer 10+ */
+      scrollbar-width: none;  /* Firefox */
+      position: absolute;
   }
   body::-webkit-scrollbar { 
-      display: none;  /* Safari and Chrome */
+    display: none;  /* Safari and Chrome */
   }
   .scroll-container {
-    overflow-y: scroll;
-    position: relative;
-    width: 100%;
-    height: 100%;
-    padding-top: 100vh;
-    transform: translateY(-100vh);
+      overflow-y: scroll;
+      position: relative;
+      transform: translateY(-100vh);
+      width: 100%;
+      height: 100%;
+      padding-top: 100vh;
   }
   header {
       overflow: hidden;
@@ -150,52 +150,90 @@ body {
     padding: 1vw;
   }
   .homeButton {
-      color: #F31C29;
-      background-color: #000;
+      color: #FF5794;
+      background-color: white;
   }
   .about {
-      color: #000;
-      background-color: #F31C29;
+      color: white;
+      background-color: #FF5794;
   }
   @font-face {
       font-family: Shatter;
       src: url(../assets/fonts/Shatter_Plain.woff);
   }
   @font-face {
-      font-family: Squealer;
-      src: url(../assets/fonts/squealer.woff);
-  }
+      font-family: IBM Plex;
+      src: url(../assets/fonts/IBMPlexSans-Italic.ttf);
+      font-weight: 400;
+      font-style: italic;
+    }
+    @font-face {
+      font-family: IBM Plex;
+      src: url(../assets/fonts/IBMPlexSans-LightItalic.ttf);
+      font-weight: 300;
+      font-style: italic;
+    }
+    @font-face {
+      font-family: IBM Plex;
+      src: url(../assets/fonts/IBMPlexSans-Light.ttf);
+      font-weight: 300;
+    }
   .wrapper {
+      max-width: 75vw;
+      display: flex;
       transform: translateY(-100vh) translateX(15vw);
-      width: 70vw;
-      padding-top: 5vh;
   }
-  .wrapper iframe {
+  .wrapper img {
+      width: 32.3vw;
+      margin-right: 5vw;
+  }
+  .wrapper3 {
+    max-width: 75vw;
+    display: flex;
+    transform: translateY(-100vh) translateX(15vw);
+    margin-bottom: 5vh;
+  }
+  .wrapper3 img {
+    width: 32.5vw;
+    margin-right: 5vw;
+  }
+  .wrapper2 {
       width: 70vw;
-      height: 85vh;
+      transform: translateY(-100vh) translateX(15vw);
+  }
+  .wrapper2 img {
+      width: 70vw;
       padding-bottom: 5vh;
   }
-  .wrapper p {
-      padding-bottom: 3vw;
-      font-family: Squealer;
+  .wrapper2 p {
+      font-family: IBM Plex;
+      font-weight: 300;
+      color: #000;
       font-size: 2vw;
       line-height: 3vw;
-      color: #F31C29;
-      text-align: center;
+      padding-bottom: 3vw;
   }
-  .wrapper a {
-      font-family: Shatter;
-      font-size: 9.5vw;
-      color: #F31C29;
-      text-decoration: none;
-      width: 70vw;
+  .wrapper2 a {
+    font-family: Shatter;
+    font-size: 9.5vw;
+    color: #FF5794;
+    text-decoration: none;
+    width: 70vw;
   }
-  .wrapper h1 {
+  .wrapper2 h1 {
     padding-top: 5vh;
     padding-bottom: 10vh;
     text-align: center;
     font-size: 9.5vw;
     line-height: 8vw;
+  }
+  #border {
+      border-style: inset;
+      border: 0.12vw solid #FF5794;
+      margin-bottom: 5vh;
+  }
+  #right-text {
+    text-align: right;
   }
 }
 
@@ -313,45 +351,54 @@ body {
       transform: translateX(0vh) translateY(89vh);
       transform-origin: bottom left;
     }
-  }
-  .navbar-right a {
-      float: left;
+    }
+    .navbar-right a {
+        float: left;
+        display: block;
+        text-align: center;
+        font-family: Shatter;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 8vh;
+        padding: 1.5vh;
+    }
+    .wrapper {
+      margin-top: 11vh;
+      width: 80vw;
+      transform: translateY(-100vh) translateX(10vw);
       display: block;
-      text-align: center;
-      font-family: Shatter;
-      text-decoration: none;
-      text-transform: uppercase;
-      font-size: 8vh;
-      padding: 1.5vh;
   }
-  .wrapper {
-    margin-top: 11vh;
-    transform: translateY(-100vh) translateX(10vw);
-    width: 80vw;
-  }
-  .wrapper iframe {
-    width: 80vw;
-    height: 70vh;
-  }
-  .wrapper h1 {
+  .wrapper2 h1 {
       padding-bottom: 21vh;
   }
-  .wrapper p {
-    padding-bottom: 5vh;
-    font-family: Squealer;
-    font-size: 3vh;
-    line-height: 4.5vh;
-    color: #F31C29;
-    text-align: center;
+  .wrapper img {
+      width: 80vw;
+      padding-bottom: 5vh;
   }
-  .wrapper a {
+  #space {
+    margin-top: -11vh;
+  }
+  .wrapper2 {
+      width: 80vw;
+      transform: translateY(-100vh) translateX(10vw);
+  }
+  .wrapper2 img {
+      width: 80vw;
+      padding-bottom: 5vh;
+  }
+  .wrapper2 p {
+      font-family: Heisei Kaku;
+      font-weight: 900;
+      color: #ed1a25;
+      font-size: 2.5vh;
+      line-height: 4.2vh;
+      padding-bottom: 5vh;
+  }
+  .wrapper2 a {
     font-family: Shatter;
     font-size: 10.5vw;
-    color: #F31C29;
+    color: #ed1a25;
     text-decoration: none;
     width: 80vw;
-  }
-  br.br1 {
-    display: none;
   }
 }

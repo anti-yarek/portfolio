@@ -1,25 +1,25 @@
 @media only screen and (min-width:1281px) {
-  /* hi-res laptops and desktops */
-
-body {
-    background-color: #000;
-    height: 100%;
-    width: 100%;
-    overflow: hidden;
-    -ms-overflow-style: none;  /* Internet Explorer 10+ */
-    scrollbar-width: none;  /* Firefox */
-    position: absolute;
+  /* hi-res laptops and desktops */  
+  
+  body {
+      background-color: white;
+      height: 100%;
+      width: 100%;
+      overflow: hidden;
+      -ms-overflow-style: none;  /* Internet Explorer 10+ */
+      scrollbar-width: none;  /* Firefox */
+      position: absolute;
   }
   body::-webkit-scrollbar { 
-      display: none;  /* Safari and Chrome */
+    display: none;  /* Safari and Chrome */
   }
   .scroll-container {
-    overflow-y: scroll;
-    position: relative;
-    width: 100%;
-    height: 100%;
-    padding-top: 100vh;
-    transform: translateY(-100vh);
+      overflow-y: scroll;
+      position: relative;
+      transform: translateY(-100vh);
+      width: 100%;
+      height: 100%;
+      padding-top: 100vh;
   }
   header {
       overflow: hidden;
@@ -150,56 +150,167 @@ body {
     padding: 1vw;
   }
   .homeButton {
-      color: #F31C29;
-      background-color: #000;
+      color: #64b43c;
+      background-color: white;
   }
   .about {
-      color: #000;
-      background-color: #F31C29;
+      color: #78d246;
+      background-color: #221f20;
   }
   @font-face {
       font-family: Shatter;
       src: url(../assets/fonts/Shatter_Plain.woff);
   }
   @font-face {
-      font-family: Squealer;
-      src: url(../assets/fonts/squealer.woff);
+      font-family: Cera Pro;
+      src: url(../assets/fonts/CeraPro-Regular.ttf);
+      font-weight: 400;
+  }
+  @font-face {
+      font-family: Cera Pro;
+      src: url(../assets/fonts/CeraPro-Italic.ttf);
+      font-weight: 400;
+      font-style: italic;
+  }
+  @font-face {
+      font-family: Cera Pro;
+      src: url(../assets/fonts/CeraPro-Medium.ttf);
+      font-weight: 500;
+  }
+  @font-face {
+      font-family: Cera Pro;
+      src: url(../assets/fonts/CeraPro-MediumItalic.ttf);
+      font-weight: 500;
+      font-style: italic;
   }
   .wrapper {
-      transform: translateY(-100vh) translateX(15vw);
-      width: 70vw;
-      padding-top: 5vh;
+      max-width: 70vw;
+      display: flex;
+      transform: translateX(15vw);
+      flex-direction: row;
   }
-  .wrapper iframe {
+  .wrapper img {
+      width: 32.3vw;
+      margin-right: 5vw;
+  }
+  .wrapper .wrapper2 {
+    flex-direction: row;
+
+  }
+  .wrapper2 {
       width: 70vw;
-      height: 85vh;
+      transform: translateY(-100vh) translateX(15vw);
+  }
+  .wrapper2 img {
+      width: 70vw;
       padding-bottom: 5vh;
   }
-  .wrapper p {
-      padding-bottom: 3vw;
-      font-family: Squealer;
+  .wrapper2 p {
+      font-family: Cera Pro;
+      font-weight: 500;
+      color: #64b43c;
       font-size: 2vw;
-      line-height: 3vw;
-      color: #F31C29;
-      text-align: center;
+      line-height: 2.5vw;
+      padding-bottom: 3vw;
+      text-align: justify;
   }
-  .wrapper a {
-      font-family: Shatter;
-      font-size: 9.5vw;
-      color: #F31C29;
-      text-decoration: none;
-      width: 70vw;
+  .wrapper2 a {
+    font-family: Shatter;
+    font-size: 9.5vw;
+    color: #64b43c;
+    text-decoration: none;
+    width: 70vw;
   }
-  .wrapper h1 {
+  .wrapper2 h1 {
     padding-top: 5vh;
     padding-bottom: 10vh;
     text-align: center;
     font-size: 9.5vw;
     line-height: 8vw;
   }
+
+  #link-to {
+      display: flex;
+      flex-direction: column;
+    }
+    .link-to-industrial-normal {
+      width: 70vw;
+      color: #64b43c;
+      font-family: Cera Pro;
+      font-weight: 500;
+      font-style: italic;
+      font-size: 7vw;
+      margin-bottom: 5vh;
+    }
+    .link-to-industrial-hover {
+      color: #221f20;
+      background-color: #78d246;
+      width: 70vw;
+      font-family: Cera Pro;
+      font-weight: 500;
+      font-style: italic;
+      font-size: 7vw;
+      margin-bottom: 5vh;
+    }
+    .link-to-cobot-normal {
+      width: 70vw;
+      color: #64b43c;
+      font-family: Cera Pro;
+      font-weight: 500;
+      font-style: italic;
+      font-size: 7vw;
+      margin-bottom: 5vh;
+    }
+    .link-to-cobot-hover {
+      color: #221f20;
+      background-color: #78d246;
+      width: 70vw;
+      font-family: Cera Pro;
+      font-weight: 500;
+      font-style: italic;
+      font-size: 7vw;
+      margin-bottom: 5vh;
+    }
+
+    .link-to-offer-normal {
+      width: 70vw;
+      color: #64b43c;
+      font-family: Cera Pro;
+      font-weight: 500;
+      font-style: italic;
+      font-size: 7vw;
+      margin-bottom: 5vh;
+    }
+
+    .link-to-offer-hover {
+      color: #221f20;
+      background-color: #78d246;
+      width: 70vw;
+      font-family: Cera Pro;
+      font-weight: 500;
+      font-style: italic;
+      font-size: 7vw;
+      margin-bottom: 5vh;
+    }
+    
+    #link-to .link-normal {
+      display: block;
+    }
+    
+    #link-to .link-hover {
+      display: none;
+    }
+    
+    #link-to:hover .link-normal {
+      display: none;
+    }
+    
+    #link-to:hover .link-hover {
+      display: block;
+    }
 }
 
-@media only screen and (max-width:641px) {
+  @media only screen and (max-width:641px) {
   .navbar-left {
       overflow: hidden;
       position: fixed;
@@ -313,45 +424,54 @@ body {
       transform: translateX(0vh) translateY(89vh);
       transform-origin: bottom left;
     }
-  }
-  .navbar-right a {
-      float: left;
+    }
+    .navbar-right a {
+        float: left;
+        display: block;
+        text-align: center;
+        font-family: Shatter;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 8vh;
+        padding: 1.5vh;
+    }
+    .wrapper {
+      margin-top: 11vh;
+      width: 80vw;
+      transform: translateY(-100vh) translateX(10vw);
       display: block;
-      text-align: center;
-      font-family: Shatter;
-      text-decoration: none;
-      text-transform: uppercase;
-      font-size: 8vh;
-      padding: 1.5vh;
   }
-  .wrapper {
-    margin-top: 11vh;
-    transform: translateY(-100vh) translateX(10vw);
-    width: 80vw;
-  }
-  .wrapper iframe {
-    width: 80vw;
-    height: 70vh;
-  }
-  .wrapper h1 {
+  .wrapper2 h1 {
       padding-bottom: 21vh;
   }
-  .wrapper p {
-    padding-bottom: 5vh;
-    font-family: Squealer;
-    font-size: 3vh;
-    line-height: 4.5vh;
-    color: #F31C29;
-    text-align: center;
+  .wrapper img {
+      width: 80vw;
+      padding-bottom: 5vh;
   }
-  .wrapper a {
+  #space {
+    margin-top: -11vh;
+  }
+  .wrapper2 {
+      width: 80vw;
+      transform: translateY(-100vh) translateX(10vw);
+  }
+  .wrapper2 img {
+      width: 80vw;
+      padding-bottom: 5vh;
+  }
+  .wrapper2 p {
+      font-family: Heisei Kaku;
+      font-weight: 900;
+      color: #ed1a25;
+      font-size: 2.5vh;
+      line-height: 4.2vh;
+      padding-bottom: 5vh;
+  }
+  .wrapper2 a {
     font-family: Shatter;
     font-size: 10.5vw;
-    color: #F31C29;
+    color: #ed1a25;
     text-decoration: none;
     width: 80vw;
-  }
-  br.br1 {
-    display: none;
   }
 }

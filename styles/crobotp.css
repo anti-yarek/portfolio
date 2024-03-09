@@ -2,24 +2,24 @@
   /* hi-res laptops and desktops */
 
 body {
-    background-color: #000;
-    height: 100%;
-    width: 100%;
-    overflow: hidden;
-    -ms-overflow-style: none;  /* Internet Explorer 10+ */
-    scrollbar-width: none;  /* Firefox */
-    position: absolute;
+      background-color: #fff;
+      height: 100%;
+      width: 100%;
+      overflow: hidden;
+      -ms-overflow-style: none;  /* Internet Explorer 10+ */
+      scrollbar-width: none;  /* Firefox */
+      position: absolute;
   }
   body::-webkit-scrollbar { 
-      display: none;  /* Safari and Chrome */
+    display: none;  /* Safari and Chrome */
   }
   .scroll-container {
-    overflow-y: scroll;
-    position: relative;
-    width: 100%;
-    height: 100%;
-    padding-top: 100vh;
-    transform: translateY(-100vh);
+      overflow-y: scroll;
+      position: relative;
+      transform: translateY(-100vh);
+      width: 100%;
+      height: 100%;
+      padding-top: 100vh;
   }
   header {
       overflow: hidden;
@@ -150,53 +150,210 @@ body {
     padding: 1vw;
   }
   .homeButton {
-      color: #F31C29;
-      background-color: #000;
+      color: #0069AF;
+      background-color: #fff;
   }
   .about {
-      color: #000;
-      background-color: #F31C29;
+      color: #fff;
+      background-color: #0069AF;
   }
   @font-face {
       font-family: Shatter;
       src: url(../assets/fonts/Shatter_Plain.woff);
   }
   @font-face {
-      font-family: Squealer;
-      src: url(../assets/fonts/squealer.woff);
+      font-family: HeliosExtC;
+      src: url(../assets/fonts/HeliosExtC.ttf);
+      font-weight: 400;
+    }
+    @font-face {
+      font-family: HeliosExtC;
+      src: url(../assets/fonts/HeliosExtC-Italic.ttf);
+      font-weight: 400;
+      font-style: italic;
+    }
+  .slide-container {
+    width: 70vw;
+    height: 112.6vh;
   }
+
+    div.image {
+      height: 100%;
+      position: absolute;
+    }
+    
+    div.before {
+      width: 50%;
+      height: 100%;
+      z-index: 2;
+      top: 0px;
+      left: 0px;
+      background-repeat: no-repeat;
+      background-position: top left;
+      background-size: cover;
+    }
+    
+    div.after {
+      width: 50%;
+      height: 100%;
+      z-index: 3;
+      top: 0;
+      right: 0;
+      background-position: top right;
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+    
+    input.slider {
+      width: 70vw;
+      height: 112.6vh;
+      outline: none;
+      background-color: transparent;
+      position: absolute;
+      margin: 0px;
+      z-index: 4;
+      cursor: url("https://anti-yarek.github.io/portfolio/assets/cursor-pointer-bw.png") 50 50, auto;
+      appearance: none;
+      -moz-appearance: none;
+      -webkit-appearance: none;
+      transition: 0.25s all ease-in-out;
+      -moz-transition: 0.25s all ease-in-out;
+      -webkit-transition: 0.25s all ease-in-out;
+      z-index: 5;
+    }
+    
+    input.slider::-moz-range-thumb {
+      width: 1vw;
+      height: 112.6vh;
+      background-color: #3b3b3b;
+      cursor: url("https://anti-yarek.github.io/portfolio/assets/cursor-pointer-bw.png") 50 50, auto;
+    }
+    
+    input.slider::-webkit-slider-thumb {
+      width: 1vw;
+      height: 113vh;
+      background-color: #3b3b3b;
+      cursor: url("https://anti-yarek.github.io/portfolio/assets/cursor-pointer-bw.png") 50 50, auto;
+      appearance: none;
+      -moz-appearance: none;
+      -webkit-appearance: none;
+    }
+    
+    div.slider-button {
+      width: 4vw;
+      height: 4vw;
+      border-radius: 50%;
+      -moz-broder-radius: 50%;
+      -webkit-border-radius: 50%;
+      background-color: #3b3b3b;
+      position: absolute;
+      top: calc(50% - 2vw);
+      left: calc(50% - 2.4vw);
+      cursor: url("https://anti-yarek.github.io/portfolio/assets/cursor-pointer-bw.png") 50 50, auto;
+      z-index: 4;
+    }
+    
+    div.slider-button:before {
+      color: #f5f5f5;
+      position: absolute;
+      top: 1.5vw;
+      left: 0px;
+      content: "\2B9C";
+    }
+    
+  div.slider-button:after {
+    color: #f5f5f5;
+    position: absolute;
+    top: 1.5vw;
+    right: 0px;
+    content: "\2B9E";
+  }
+
   .wrapper {
+      width: 70vw;
       transform: translateY(-100vh) translateX(15vw);
-      width: 70vw;
-      padding-top: 5vh;
+      margin-bottom: 5vh;
   }
-  .wrapper iframe {
+
+  .wrapper img {
+    width: 70vw;
+  }
+
+  .wrapper2 {
       width: 70vw;
-      height: 85vh;
+      transform: translateY(-100vh) translateX(15vw);
+  }
+  .wrapper2 img {
+      width: 70vw;
       padding-bottom: 5vh;
   }
-  .wrapper p {
+  .wrapper2 p {
+      font-family: HeliosExtC;
+      font-weight: 400;
+      color: #0069AF;
+      font-size: 1.8vw;
+      line-height: 2.2vw;
       padding-bottom: 3vw;
-      font-family: Squealer;
-      font-size: 2vw;
-      line-height: 3vw;
-      color: #F31C29;
       text-align: center;
   }
-  .wrapper a {
-      font-family: Shatter;
-      font-size: 9.5vw;
-      color: #F31C29;
-      text-decoration: none;
-      width: 70vw;
+  .wrapper2 a {
+    font-family: Shatter;
+    font-size: 9.5vw;
+    color: #0069AF;
+    text-decoration: none;
+    width: 70vw;
   }
-  .wrapper h1 {
+  .wrapper2 h1 {
     padding-top: 5vh;
     padding-bottom: 10vh;
     text-align: center;
     font-size: 9.5vw;
     line-height: 8vw;
   }
+
+  #link-to {
+      display: flex;
+      flex-direction: column;
+  }
+
+
+    .link-to-offer-normal {
+      width: 70vw;
+      color: #0069AF;
+      font-family: HeliosExtC;
+      font-weight: 400;
+      font-style: italic;
+      font-size: 6vw;
+      margin-bottom: 5vh;
+      text-align: center;
+    }
+
+    .link-to-offer-hover {
+      color: #f5f5f5;
+      background-color: #0069AF;
+      width: 70vw;
+      font-family: HeliosExtC;
+      font-weight: 400;
+      font-size: 6vw;
+      margin-bottom: 5vh;
+      text-align: center;
+    }
+    
+    #link-to .link-normal {
+      display: block;
+    }
+    
+    #link-to .link-hover {
+      display: none;
+    }
+    
+    #link-to:hover .link-normal {
+      display: none;
+    }
+    
+    #link-to:hover .link-hover {
+      display: block;
+    }
 }
 
 @media only screen and (max-width:641px) {
@@ -313,45 +470,54 @@ body {
       transform: translateX(0vh) translateY(89vh);
       transform-origin: bottom left;
     }
-  }
-  .navbar-right a {
-      float: left;
+    }
+    .navbar-right a {
+        float: left;
+        display: block;
+        text-align: center;
+        font-family: Shatter;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 8vh;
+        padding: 1.5vh;
+    }
+    .wrapper {
+      margin-top: 11vh;
+      width: 80vw;
+      transform: translateY(-100vh) translateX(10vw);
       display: block;
-      text-align: center;
-      font-family: Shatter;
-      text-decoration: none;
-      text-transform: uppercase;
-      font-size: 8vh;
-      padding: 1.5vh;
   }
-  .wrapper {
-    margin-top: 11vh;
-    transform: translateY(-100vh) translateX(10vw);
-    width: 80vw;
-  }
-  .wrapper iframe {
-    width: 80vw;
-    height: 70vh;
-  }
-  .wrapper h1 {
+  .wrapper2 h1 {
       padding-bottom: 21vh;
   }
-  .wrapper p {
-    padding-bottom: 5vh;
-    font-family: Squealer;
-    font-size: 3vh;
-    line-height: 4.5vh;
-    color: #F31C29;
-    text-align: center;
+  .wrapper img {
+      width: 80vw;
+      padding-bottom: 5vh;
   }
-  .wrapper a {
+  #space {
+    margin-top: -11vh;
+  }
+  .wrapper2 {
+      width: 80vw;
+      transform: translateY(-100vh) translateX(10vw);
+  }
+  .wrapper2 img {
+      width: 80vw;
+      padding-bottom: 5vh;
+  }
+  .wrapper2 p {
+      font-family: Heisei Kaku;
+      font-weight: 900;
+      color: #ed1a25;
+      font-size: 2.5vh;
+      line-height: 4.2vh;
+      padding-bottom: 5vh;
+  }
+  .wrapper2 a {
     font-family: Shatter;
     font-size: 10.5vw;
-    color: #F31C29;
+    color: #ed1a25;
     text-decoration: none;
     width: 80vw;
-  }
-  br.br1 {
-    display: none;
   }
 }
