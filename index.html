@@ -5,22 +5,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+    <script src="scripts/main.js" defer></script>
     <link rel="stylesheet" href="styles/style.css">
     <title>anti-yarek</title>
     <style type="text/css">       
         html{
-          cursor: url("https://anti-yarek.github.io/anti-yarek/assets/cursor-default.png") 10 60, default;
+            cursor: url("https://anti-yarek.github.io/portfolio/assets/cursor-default.png") 50 50, default;
         }
         button {
-          cursor: url("https://anti-yarek.github.io/anti-yarek/assets/cursor-default.png") 10 60, default;
+            cursor: url("https://anti-yarek.github.io/portfolio/assets/cursor-pointer.png") 50 50, default;
         }
         a {
-            cursor: url("https://anti-yarek.github.io/anti-yarek/assets/cursor-pointer.png") 10 60, auto;
+            cursor: url("https://anti-yarek.github.io/portfolio/assets/cursor-pointer.png") 50 50, auto;
+        }
+        .cp {
+            cursor: url("https://anti-yarek.github.io/portfolio/assets/cursor-pointer-bw.png") 50 50, auto;
+        }
+        .cp a {
+            cursor: url("https://anti-yarek.github.io/portfolio/assets/cursor-pointer-bw.png") 50 50, auto;
+        }
+        .pp {
+            cursor: url("https://anti-yarek.github.io/portfolio/assets/cursor-pointer.png") 50 50, auto;
+        }
+        .pm a {
+            cursor: url("https://anti-yarek.github.io/portfolio/assets/cursor-pointer-bw.png") 50 50, auto;
         }
     </style>
 </head>
 <body>
-    <header>
+   <header>
         <div class="navbar-left">
             <a href="index.html" class="homeButton">home</a>
             <a href="about.html" class="about">info</a>
@@ -54,37 +67,108 @@
             <a href="about.html" class="about">info</a>
         </div>
     </header>
-    <div class="home">
-        <div class="buttons">
-            <div class="intro">
-                <h1>
-                   <br class="br1"> Good day to y’all 
-                   <br class="br1"> my name is yarik and
-                   <br class="br1"> I’m a graphic designer
-                </h1>
-                <img src="assets/down-chevron-red.png" alt="">
-                <h2>
-                    scroll to have a look 
-                    <br class="mobile">at my work
-                </h2>
+        <div class="scroll-container">
+            <div class="buttons">
+                <div class="intro">
+                    <h1>
+                    <br class="br1"> Good day to y’all 
+                    <br class="br1"> my name is yarik and
+                    <br class="br1"> I’m a graphic designer
+                    </h1>
+                    <img src="assets/down-chevron-red.svg" alt="">
+                    <h2>
+                        scroll to have a look 
+                        <br class="mobile">at my work
+                    </h2>
+                </div>
+                <button class="cp">
+                    <a href="cp.html">
+                        <div class="cp-normal">
+                            <h3>commercial <br> projects</h3>
+                        </div>
+                        <div class="cp-hover">
+                            <h3>commercial <br> projects</h3>
+                        </div>
+                     
+                        <div class="cp-normal">
+                            <img src="assets/down-chevron-red.svg" alt="" class="arrow1">
+                        </div>
+                        <div class="cp-hover">
+                            <img src="assets/me-1.png" alt="" class="me-1">
+                        </div>
+                        <div class="cp-hover">
+                            <img src="assets/me-2.png" alt="" class="me-2">
+                        </div>
+                        <div class="cp-hover">
+                            <img src="assets/down-chevron-red.svg" alt="" class="arrow1">
+                        </div>
+                        <div class="cp-hover">
+                            <p>click on me pls &#9758;</p>
+                        </div>
+                    </a>
+                </button>
+                <button class="pp">
+                    <a href="pp.html">
+                        <div class="pp-normal">
+                            <h3>personal <br> projects</h3>
+                        </div>
+                        <div class="pp-hover">
+                            <h3>personal <br> projects</h3>
+                        </div>
+                    
+                    <div class="pp-hover">
+                        <img src="assets/me-1-1.png" alt="" class="me-1-1">
+                    </div>
+                    <div class="pp-hover">
+                        <img src="assets/me-1-2.png" alt="" class="me-1-2">
+                    </div>
+                    <div class="pp-hover">
+                        <img src="assets/me-1-3.png" alt="" class="me-1-3">
+                    </div>
+                    <div class="pp-hover">
+                        <img src="assets/me-1-4.png" alt="" class="me-1-4">
+                    </div>
+                    <div class="pp-hover"><p class="achtung">*I'M A BUTTON*</p></div>
+                    <div class="pp-normal">
+                        <img src="assets/down-chevron-red.svg" alt="" class="arrow2">
+                    </div>
+                    <div class="pp-hover">
+                        <img class="arrow2" src="assets/down-chevron-yellow.svg" alt="">
+                    </div>
+                    </a>
+                </button>
+                <button class="pm">
+                    <a href="pm.html"><img src="assets/pm.svg" alt="" class="pm-name">
+                    <div class="pm-hover">
+                        <p class="pmh">I exist to be clicked</p>
+                    </div>
+                    <div class="pm-hover">
+                        <img src="assets/me-2-1.png" alt="" class="me-2-1">
+                    </div>
+                    <div class="pm-hover">
+                        <img src="assets/me-2-2.png" alt="" class="me-2-2">
+                    </div>
+                    <div class="pm-hover">
+                        <img src="assets/me-2-1.png" alt="" class="me-2-1-reverse">
+                    </div>
+                    <div class="pm-hover">
+                        <img src="assets/me-2-2.png" alt="" class="me-2-2-reverse">
+                    </div>
+                    <div class="pm-hover">
+                        <img src="assets/me-3.png" alt="" class="me-3">
+                    </div>
+                    <div class="pm-hover">
+                        <img class="me-3-top-1" src="assets/me-3-top-1.png">
+                    </div>
+                    <div class="pm-hover">
+                        <img class="me-3-top-2" src="assets/me-3-top-2.png">
+                    </div>
+                    </a>
+                </button>
+                <div  id="me-3-back">
+                    <img src="assets/me-3-back.png" alt="" class="me-3-back">
+                </div>
             </div>
-            <button class="placeholder">
-                <a href="placeholder.html"><img src="assets/PLACEHOLDER.svg" alt=""></a>
-            </button>
-            <img src="assets/down-chevron-red.png" alt="" class="arrow1">
-            <button class="hanky-panky">
-                <a href="hanky-panky.html"><img src="assets/HANKYPANKY.svg" alt=""></a>
-            </button>
-            <img src="assets/down-chevron-red.png" alt="" class="arrow2">
-            <button class="zeppelin">
-                <a href="zeppelin.html"><img src="assets/Component 2.svg" alt=""></a>
-            </button>
-            <img src="assets/down-chevron-red.png" alt="" class="arrow3">
-            <button class="kremlin">
-                <a href="kremlin.html"><img src="assets/Kremlin.svg" alt=""></a>
-            </button>
-            
         </div>
-    </div>
 </body>
 </html>
