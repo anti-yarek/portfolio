@@ -567,8 +567,12 @@
         height: 80vh;
         margin: 0vh 15vw 0vh 15vw;
         z-index: 2;
+        transform-origin: top left;
     }
 
+    .pm-hover {
+        transform-origin: top left;
+    }
     .pm-name {
         width: 50vw;
         transform: translateY(0vh) translateX(3vw);
@@ -578,6 +582,7 @@
         width: 28vw;
         position: absolute;
         transform: translateY(-60vh) translateX(-40vw);
+        transform-origin: top left;
 
         animation: me-2-1 0.24s linear 0s infinite alternate;
         -webkit-animation: me-2-1 0.24s linear 0s infinite alternate;
@@ -587,6 +592,7 @@
         width: 28vw;
         position: absolute;
         transform: translateY(-60vh) translateX(-40vw);
+        transform-origin: top left;
         
         animation: me-2-2 0.24s linear 0s infinite alternate;
         -webkit-animation: me-2-2 0.24s linear 0s infinite alternate;
@@ -672,7 +678,9 @@
     .me-3-top-1 {
         width: 55vw;
         position: fixed;
-        transform: translateY(-133vh) translateX(-27vw);
+        transform: translateX(-27vw);
+        transform-origin: top left;
+        top: -10%;
 
         animation: me-3-top-1 0.24s linear 0s infinite alternate;
         -webkit-animation: me-3-top-1 0.24s linear 0s infinite alternate;
@@ -707,7 +715,8 @@
     .me-3-top-2 {
         width: 55vw;
         position: fixed;
-        transform: translateY(-133vh) translateX(-27vw);
+        transform: translateX(-27vw);
+        top: -10%;
 
         animation: me-3-top-2 0.24s linear 0s infinite alternate;
         -webkit-animation: me-3-top-2 0.24s linear 0s infinite alternate;
