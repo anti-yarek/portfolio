@@ -355,7 +355,7 @@
     .me-1-1 {
         width: 55vw;
         position: absolute;
-        transform: translateY(-120vh) translateX(-47vw);
+        transform: translateY(-100vh) translateX(-47vw);
         transform-origin: center;
 
         animation: me-1-1 0.24s linear 0s infinite alternate;
@@ -409,7 +409,7 @@
     .me-1-2 {
         width: 55vw;
         position: absolute;
-        transform: translateY(-120vh) translateX(-47vw);
+        transform: translateY(-100vh) translateX(-47vw);
         transform-origin: center;
 
         animation: me-1-2 0.24s linear 0s infinite alternate;
@@ -463,7 +463,7 @@
     .me-1-3 {
         width: 55vw;
         position: absolute;
-        transform: translateY(-120vh) translateX(-47vw);
+        transform: translateY(-100vh) translateX(-47vw);
         transform-origin: center;
 
         animation: me-1-3 0.24s linear 0s infinite alternate;
@@ -517,7 +517,7 @@
     .me-1-4 {
         width: 55vw;
         position: absolute;
-        transform: translateY(-120vh) translateX(-47vw);
+        transform: translateY(-100vh) translateX(-47vw);
         transform-origin: center;
 
         animation: me-1-4 0.24s linear 0s infinite alternate;
