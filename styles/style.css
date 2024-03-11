@@ -574,6 +574,7 @@
         margin: 0vh 15vw 0vh 15vw;
         z-index: 2;
         transform-origin: top left;
+        overflow: hidden;
     }
 
     .pm-hover {
