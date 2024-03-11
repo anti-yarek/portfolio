@@ -245,6 +245,9 @@
         text-decoration: none;
         cursor: url("https://anti-yarek.github.io/portfolio/assets/cursor-pointer-bw.png") 50 50, auto;
     }
+    .cp-hover {
+        overflow: hidden;
+    }
     .cp h3 {
         margin-left: 5vw;
     }
@@ -315,6 +318,9 @@
     }
     .pp h3 {
         margin-left: 5vw;
+    }
+    .pp-hover {
+        overflow: hidden;
     }
     .pp .pp-hover p {
         font-family: Folio;
@@ -583,6 +589,7 @@
 
     .pm-hover {
         transform-origin: top left;
+        overflow: hidden;
     }
     .pm-name {
         width: 50vw;
