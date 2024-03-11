@@ -593,7 +593,7 @@
     }
     .me-2-1 {
         width: 28vw;
-        position: absolute;
+        position: fixed;
         transform: translateY(-60vh) translateX(-40vw);
         transform-origin: top left;
         overflow: hidden;
@@ -605,7 +605,7 @@
 
     .me-2-2 {
         width: 28vw;
-        position: absolute;
+        position: fixed;
         transform: translateY(-60vh) translateX(-40vw);
         transform-origin: top left;
         overflow: hidden;
@@ -617,7 +617,7 @@
 
     .me-2-1-reverse {
         width: 28vw;
-        position: absolute;
+        position: fixed;
         transform: translateY(-60vh) translateX(13vw) rotate(180deg);
         overflow: hidden;
         
@@ -654,7 +654,7 @@
 
     .me-2-2-reverse {
         width: 28vw;
-        position: absolute;
+        position: fixed;
         transform: translateY(-60vh) translateX(13vw) rotate(180deg);
         overflow: hidden;
 
@@ -691,7 +691,7 @@
 
     .me-3 {
         width: 25vw;
-        position: absolute;
+        position: fixed;
         transform: translateY(-10vh) translateX(-12vw);
         overflow: hidden;
     }
