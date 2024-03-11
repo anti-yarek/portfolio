@@ -287,13 +287,11 @@
         height: 50vh;
         position: absolute;
         transform: translateY(-23vh) translateX(-3vw) rotate(-20deg);
-        overflow: hidden;
     }
     .me-2 {
         height: 150vh;
         position: absolute;
         transform: translateY(-45vh) translateX(-60vw) rotate(5deg);
-        overflow: hidden;
     }
 
     .pp {
@@ -601,7 +599,6 @@
         position: absolute;
         transform: translateY(-60vh) translateX(-40vw);
         transform-origin: top left;
-        overflow: hidden;
 
         animation: me-2-1 0.24s linear 0s infinite alternate;
         -webkit-animation: me-2-1 0.24s linear 0s infinite alternate;
@@ -612,7 +609,6 @@
         position: absolute;
         transform: translateY(-60vh) translateX(-40vw);
         transform-origin: top left;
-        overflow: hidden;
         
         animation: me-2-2 0.24s linear 0s infinite alternate;
         -webkit-animation: me-2-2 0.24s linear 0s infinite alternate;
@@ -622,7 +618,6 @@
         width: 28vw;
         position: absolute;
         transform: translateY(-60vh) translateX(13vw) rotate(180deg);
-        overflow: hidden;
         
         animation: me-2-1 0.24s linear 0s infinite alternate;
         -webkit-animation: me-2-1 0.24s linear 0s infinite alternate;
@@ -659,7 +654,6 @@
         width: 28vw;
         position: absolute;
         transform: translateY(-60vh) translateX(13vw) rotate(180deg);
-        overflow: hidden;
 
         animation: me-2-2 0.24s linear 0s infinite alternate;
         -webkit-animation: me-2-2 0.24s linear 0s infinite alternate;
@@ -696,7 +690,6 @@
         width: 25vw;
         position: absolute;
         transform: translateY(-10vh) translateX(-12vw);
-        overflow: hidden;
     }
     .me-3-top-1 {
         width: 55vw;
@@ -704,7 +697,6 @@
         transform: translateX(-27vw);
         transform-origin: top left;
         top: -40%;
-        overflow: hidden;
 
         animation: me-3-top-1 0.24s linear 0s infinite alternate;
         -webkit-animation: me-3-top-1 0.24s linear 0s infinite alternate;
@@ -741,7 +733,6 @@
         position: fixed;
         transform: translateX(-27vw);
         top: -40%;
-        overflow: hidden;
 
         animation: me-3-top-2 0.24s linear 0s infinite alternate;
         -webkit-animation: me-3-top-2 0.24s linear 0s infinite alternate;
@@ -778,12 +769,10 @@
         transform: translateY(-10vh) translateX(323vw);
         width: 40vw;
         height: 100vh;
-        overflow: hidden;
     }
     #me-3-back img {
         width: 150vw;
         height: auto;
-        overflow: hidden;
     }
     .me-3-back {
         width: 150vw;
