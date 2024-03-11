@@ -245,9 +245,6 @@
         text-decoration: none;
         cursor: url("https://anti-yarek.github.io/portfolio/assets/cursor-pointer-bw.png") 50 50, auto;
     }
-    .cp-hover {
-        overflow: hidden;
-    }
     .cp h3 {
         margin-left: 5vw;
     }
@@ -317,9 +314,7 @@
     .pp h3 {
         margin-left: 5vw;
     }
-    .pp-hover {
-        overflow: hidden;
-    }
+
     .pp .pp-hover p {
         font-family: Folio;
         font-size: 3vw;
@@ -362,7 +357,6 @@
         position: absolute;
         transform: translateY(-120vh) translateX(-47vw);
         transform-origin: center;
-        overflow: hidden;
 
         animation: me-1-1 0.24s linear 0s infinite alternate;
         -webkit-animation: me-1-1 0.24s linear 0s infinite alternate;
@@ -417,7 +411,6 @@
         position: absolute;
         transform: translateY(-120vh) translateX(-47vw);
         transform-origin: center;
-        overflow: hidden;
 
         animation: me-1-2 0.24s linear 0s infinite alternate;
         -webkit-animation: me-1-2 0.24s linear 0s infinite alternate;
@@ -472,7 +465,6 @@
         position: absolute;
         transform: translateY(-120vh) translateX(-47vw);
         transform-origin: center;
-        overflow: hidden;
 
         animation: me-1-3 0.24s linear 0s infinite alternate;
         -webkit-animation: me-1-3 0.24s linear 0s infinite alternate;
@@ -527,7 +519,6 @@
         position: absolute;
         transform: translateY(-120vh) translateX(-47vw);
         transform-origin: center;
-        overflow: hidden;
 
         animation: me-1-4 0.24s linear 0s infinite alternate;
         -webkit-animation: me-1-4 0.24s linear 0s infinite alternate;
@@ -587,7 +578,6 @@
 
     .pm-hover {
         transform-origin: top left;
-        overflow: hidden;
     }
     .pm-name {
         width: 50vw;
