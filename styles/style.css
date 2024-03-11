@@ -1,6 +1,11 @@
 @media only screen and (min-width:642px) {
      /* hi-res laptops and desktops */
-
+    html {
+        scrollbar-width: none;
+    }
+    html::-webkit-scrollbar {
+        display: none;
+    }
     body {
         position: relative;
         height: 100vh;
