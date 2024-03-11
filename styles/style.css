@@ -575,7 +575,7 @@
         margin: 0vh 15vw 0vh 15vw;
         z-index: 2;
         transform-origin: top left;
-        overflow-y: hidden;
+        overflow: hidden;
     }
 
     .pm-hover {
@@ -602,9 +602,7 @@
         -webkit-animation: me-2-1 0.24s linear 0s infinite alternate;
         -moz-animation: me-2-1 0.24s linear 0s infinite alternate;
     }
-    .me-2-1:hover {
-        overflow: hidden;
-    }
+
     .me-2-2 {
         width: 28vw;
         position: absolute;
@@ -616,9 +614,7 @@
         -webkit-animation: me-2-2 0.24s linear 0s infinite alternate;
         -moz-animation: me-2-2 0.24s linear 0s infinite alternate;
     }
-    .me-2-2:hover {
-        overflow: hidden;
-    }
+
     .me-2-1-reverse {
         width: 28vw;
         position: absolute;
@@ -628,9 +624,6 @@
         animation: me-2-1 0.24s linear 0s infinite alternate;
         -webkit-animation: me-2-1 0.24s linear 0s infinite alternate;
         -moz-animation: me-2-1 0.24s linear 0s infinite alternate;
-    }
-    .me-2-1-reverse:hover {
-        overflow: hidden;
     }
 
     @keyframes me-2-1 {
@@ -669,9 +662,6 @@
         -webkit-animation: me-2-2 0.24s linear 0s infinite alternate;
         -moz-animation: me-2-2 0.24s linear 0s infinite alternate;
     }
-    .me-2-2-reverse:hover {
-        overflow: hidden;
-    }
 
     @keyframes me-2-2 {
         0%, 49.9% {
@@ -705,9 +695,7 @@
         transform: translateY(-10vh) translateX(-12vw);
         overflow: hidden;
     }
-    .me-3:hover {
-        overflow: hidden;
-    }
+
     .me-3-top-1 {
         width: 55vw;
         position: fixed;
@@ -846,11 +834,13 @@
         transform: translateX(15vw) translateY(25vh);
         text-transform: lowercase;
         z-index: 2;
+        overflow: hidden;
     }
     .pm:hover {
         background-color: #ff00ff;
         background-position: center;
         background-size: 60vw, 80vh;
+        overflow: hidden;
     }
     .pm .pm-normal {
         color: #ff00ff;
