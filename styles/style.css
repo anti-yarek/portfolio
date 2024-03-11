@@ -581,6 +581,9 @@
         transform-origin: top left;
         overflow: hidden;
     }
+    .pm-hover img {
+        overflow: hidden;
+    }
     .pm-name {
         width: 50vw;
         transform: translateY(0vh) translateX(3vw);
