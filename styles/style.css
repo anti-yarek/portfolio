@@ -578,6 +578,7 @@
 
     .pm-hover {
         transform-origin: top left;
+        overflow-y: hidden;
     }
     .pm-name {
         width: 50vw;
