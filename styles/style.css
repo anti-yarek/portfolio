@@ -568,6 +568,10 @@
         }
     }
 
+    button .pm {
+        overflow-y: hidden;
+    }
+
     .pm {
         width: 70vw;
         height: 80vh;
