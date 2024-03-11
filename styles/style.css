@@ -584,13 +584,14 @@
         width: 50vw;
         transform: translateY(0vh) translateX(3vw);
         cursor: url("https://anti-yarek.github.io/portfolio/assets/cursor-pointer-bw.png") 50 50, auto;
+        overflow: hidden;
     }
     .me-2-1 {
         width: 28vw;
         position: absolute;
         transform: translateY(-60vh) translateX(-40vw);
         transform-origin: top left;
-        overflow-y: hidden;
+        overflow: hidden;
 
         animation: me-2-1 0.24s linear 0s infinite alternate;
         -webkit-animation: me-2-1 0.24s linear 0s infinite alternate;
@@ -601,7 +602,7 @@
         position: absolute;
         transform: translateY(-60vh) translateX(-40vw);
         transform-origin: top left;
-        overflow-y: hidden;
+        overflow: hidden;
         
         animation: me-2-2 0.24s linear 0s infinite alternate;
         -webkit-animation: me-2-2 0.24s linear 0s infinite alternate;
@@ -611,7 +612,7 @@
         width: 28vw;
         position: absolute;
         transform: translateY(-60vh) translateX(13vw) rotate(180deg);
-        overflow-y: hidden;
+        overflow: hidden;
         
         animation: me-2-1 0.24s linear 0s infinite alternate;
         -webkit-animation: me-2-1 0.24s linear 0s infinite alternate;
@@ -648,7 +649,7 @@
         width: 28vw;
         position: absolute;
         transform: translateY(-60vh) translateX(13vw) rotate(180deg);
-        overflow-y: hidden;
+        overflow: hidden;
 
         animation: me-2-2 0.24s linear 0s infinite alternate;
         -webkit-animation: me-2-2 0.24s linear 0s infinite alternate;
@@ -685,7 +686,7 @@
         width: 25vw;
         position: absolute;
         transform: translateY(-10vh) translateX(-12vw);
-        overflow-y: hidden;
+        overflow: hidden;
     }
     .me-3-top-1 {
         width: 55vw;
@@ -693,7 +694,7 @@
         transform: translateX(-27vw);
         transform-origin: top left;
         top: -40%;
-        overflow-y: hidden;
+        overflow: hidden;
 
         animation: me-3-top-1 0.24s linear 0s infinite alternate;
         -webkit-animation: me-3-top-1 0.24s linear 0s infinite alternate;
@@ -730,7 +731,7 @@
         position: fixed;
         transform: translateX(-27vw);
         top: -40%;
-        overflow-y: hidden;
+        overflow: hidden;
 
         animation: me-3-top-2 0.24s linear 0s infinite alternate;
         -webkit-animation: me-3-top-2 0.24s linear 0s infinite alternate;
