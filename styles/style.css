@@ -767,19 +767,19 @@
         transform: translateY(-10vh) translateX(323vw);
         width: 40vw;
         height: 100vh;
-        overflow-y: hidden;
+        overflow: hidden;
     }
     #me-3-back img {
         width: 150vw;
         height: auto;
-        overflow-y: hidden;
+        overflow: hidden;
     }
     .me-3-back {
         width: 150vw;
         position: relative;
         z-index: 1;
         left: 0;
-        overflow-y: hidden;
+        overflow: hidden;
         
         animation: me-3-back 0.24s linear 0s infinite alternate;
         -webkit-animation: me-3-back 0.24s linear 0s infinite alternate;
