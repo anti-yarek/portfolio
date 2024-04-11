@@ -172,7 +172,7 @@
 
   .scrollbar-thumb {
       width: 30vw;
-      height: 50vh; /* Adjust the height of the scrollbar thumb */
+      height: 40vh; /* Adjust the height of the scrollbar thumb */
       background-color: transparent;
       cursor: url("https://anti-yarek.github.io/portfolio/assets/cursor-pointer.png") 10 60, auto;
       position: absolute;
@@ -186,7 +186,7 @@
   #pr-name {
       height: 10vh;
       margin-top: 7.5vh;
-      margin-bottom: 7.5vh;
+      margin-bottom: 0vh;
       margin-right: 3vw;
       font-family: Folio;
       font-size: 3vw;
@@ -320,6 +320,15 @@
     line-height: 1.4vw;
     padding-bottom: 2vw;
   }
+  #huevos p {
+    padding-bottom: 2vw;
+    font-family: Avenir;
+    font-weight: 600;
+    font-size: 1.2vw;
+    line-height: 1.3vw;
+    color: #F31C29;
+    text-align: left;
+  }
   .hankypanky {
     margin-left: 3vw;
     margin-right: 3vw;
@@ -348,7 +357,21 @@
   .kremlin:hover {
     background-image: url(../assets/kremlin-hover.jpg);
   }
+  .huevos {
+    margin-left: 3vw;
+    margin-right: 3vw;
+    margin-top: 5vh;
+    height: 40vh;
+  }
+  .huevos:hover {
+    background-image: url(../assets/record-cover.png);
+    background-size: cover;
+  }
 
+  @font-face {
+    font-family: Avenir;
+    src: url(../assets/fonts/Avenir.ttc);
+  }
   @font-face {
     font-family: Squealer;
     src: url(../assets/fonts/squealer.woff);

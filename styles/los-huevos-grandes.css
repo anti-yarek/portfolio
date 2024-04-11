@@ -2,7 +2,7 @@
     /* hi-res laptops and desktops */
   
   body {
-      background-color: #F5E9C7;
+      background-color: #53ADF5;
       height: 100%;
       width: 100%;
       overflow: hidden;
@@ -150,20 +150,20 @@
       padding: 1vw;
     }
     .homeButton {
-        color: #F58F39;
-        background-color: #F5E9C7;
+        color: #F5AB38;
+        background-color: #53ADF5;
     }
     .about {
-        color: #F5E9C7;
-        background-color: #F58F39;
+        color: #53ADF5;
+        background-color: #F5AB38;
     }
     @font-face {
         font-family: Shatter;
         src: url(../assets/fonts/Shatter_Plain.woff);
     }
     @font-face {
-        font-family: Squealer;
-        src: url(../assets/fonts/squealer.woff);
+        font-family: Avenir;
+        src: url(../assets/fonts/Avenir.ttc);
     }
     .wrapper {
         transform: translateY(-100vh) translateX(15vw);
@@ -177,16 +177,17 @@
     }
     .wrapper p {
         padding-bottom: 3vw;
-        font-family: Squealer;
+        font-family: Avenir;
+        font-weight: 600;
         font-size: 2vw;
         line-height: 3vw;
-        color: #F58F39;
+        color: #F5AB38;
         text-align: center;
     }
     .wrapper a {
         font-family: Shatter;
         font-size: 9.5vw;
-        color: #F58F39;
+        color: #F5AB38;
         text-decoration: none;
         width: 70vw;
     }
@@ -341,13 +342,13 @@
       font-family: Squealer;
       font-size: 3vh;
       line-height: 4.5vh;
-      color: #F58F39;
+      color: #F5AB38;
       text-align: center;
     }
     .wrapper a {
       font-family: Shatter;
       font-size: 10.5vw;
-      color: #F58F39;
+      color: #F5AB38;
       text-decoration: none;
       width: 80vw;
     }
