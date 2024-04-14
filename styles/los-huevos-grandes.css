@@ -2,7 +2,7 @@
     /* hi-res laptops and desktops */
   
   body {
-      background-color: #53ADF5;
+      background-color: #8ac7dd;
       height: 100%;
       width: 100%;
       overflow: hidden;
@@ -150,12 +150,12 @@
       padding: 1vw;
     }
     .homeButton {
-        color: #F5AB38;
-        background-color: #53ADF5;
+        color: #ff9036;
+        background-color: #8ac7dd;
     }
     .about {
-        color: #53ADF5;
-        background-color: #F5AB38;
+        color: #8ac7dd;
+        background-color: #ff9036;
     }
     @font-face {
         font-family: Shatter;
@@ -175,19 +175,22 @@
         height: 85vh;
         padding-bottom: 5vh;
     }
+    .wrapper img {
+      width: 70vw;
+    }
     .wrapper p {
         padding-bottom: 3vw;
         font-family: Avenir;
         font-weight: 600;
         font-size: 2vw;
         line-height: 3vw;
-        color: #F5AB38;
+        color: #ff9036;
         text-align: center;
     }
     .wrapper a {
         font-family: Shatter;
         font-size: 9.5vw;
-        color: #F5AB38;
+        color: #ff9036;
         text-decoration: none;
         width: 70vw;
     }
@@ -197,6 +200,17 @@
       text-align: center;
       font-size: 9.5vw;
       line-height: 8vw;
+    }
+    .wrapper-h {
+      transform: translateY(-100vh) translateX(15vw);
+      width: 70vw;
+      padding-top: 5vh;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+    .wrapper-h img {
+      max-width: 33vw;
     }
   }
   
