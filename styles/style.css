@@ -1,5 +1,22 @@
 @media only screen and (min-width:642px) {
      /* hi-res laptops and desktops */
+     #loading-screen {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgb(255, 255, 255);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 999;
+      }
+      
+      #loading-screen video {
+        width: 100vw; /* Adjust according to your GIF size */
+        height: 100vh;
+      }
     html {
         scrollbar-width: none;
     }
