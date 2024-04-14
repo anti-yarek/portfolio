@@ -163,6 +163,7 @@
       overflow-x: hidden;
       display: flex;
       flex-direction: column;
+      justify-content: space-around;
   }
   /*.scrollbar-track {
     width: 100%;
@@ -183,16 +184,20 @@
       background-size: contain;
       background-image: url(../assets/liveseyv.png);
   }
-  #pr-name {
-      height: 10vh;
-      margin-top: 7.5vh;
-      margin-bottom: 0vh;
+  .pr-name {
+      height: 15vh;
+      margin-top: 5vh;
       margin-right: 3vw;
       font-family: Folio;
       font-size: 3vw;
       font-weight: bold;
       text-align: right;
       color: #F2DC1D;
+  }
+
+  #huevos-name {
+    margin-top: 2.5vh;
+    margin-bottom: 2.5vh;
   }
 
   .projects {
