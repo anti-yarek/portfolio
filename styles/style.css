@@ -2,21 +2,40 @@
      /* hi-res laptops and desktops */
      #loading-screen {
         position: fixed;
-        top: 0vh;
-        left: 0vw;
-        width: 100%;
-        height: 100%;
-        background-color: #25F587;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        z-index: 999;
-      }
-      
-      #loading-screen video {
-        width: 100vw; /* Adjust according to your GIF size */
+        top: 0;
+        left: 0;
+        width: 100vw;
         height: 100vh;
-      }
+        background-color: #F31C29; /* Adjust opacity if needed */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 1000; /* Ensure it is above other elements */
+    }
+    
+    .loading-animation {
+        /* Define your loading animation styles here */
+        width: 100px;
+        height: 100px;
+        background-image: url('assets/loading-icon.gif'); /* Replace with your loading icon */
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    @keyframes fadeOut {
+        from {
+            opacity: 1;
+        }
+        to {
+            opacity: 0;
+        }
+    }
+    
+    .fade-out {
+        animation: fadeOut 0.5s ease-out forwards; /* Adjust the timing and easing as needed */
+    }
+    
+    
     html {
         scrollbar-width: none;
     }
