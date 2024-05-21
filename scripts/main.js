@@ -1,17 +1,34 @@
 document.addEventListener('DOMContentLoaded', function() {
     const loadingScreen = document.getElementById('loading-screen');
+    const loadingAnimation = document.querySelector('.loading-animation');
+    const leftCurtain = document.querySelector('.left-curtain');
+    const rightCurtain = document.querySelector('.right-curtain');
 
-    // Listen for the page fully loaded event
-    window.addEventListener('load', function() {
-        // Delay to ensure the animation completes a full loop
-        setTimeout(() => {
-            // Trigger the ending animation (add your animation code here)
-            loadingScreen.classList.add('fade-out');
+    let animationLoops = 0;
 
-            // Remove the loading screen after the animation
-            loadingScreen.addEventListener('animationend', () => {
-                loadingScreen.remove();
+    // Listen for the animation iteration event
+    loadingAnimation.addEventListener('animationiteration', function() {
+        animationLoops++;
+
+        if (animationLoops === 2) { // Adjust the number of loops as needed
+            // Hide the arrows animation
+            loadingAnimation.classList.add('hide-arrows');
+
+            // Make the loading screen background transparent
+            loadingScreen.style.backgroundColor = 'transparent';
+
+            // Show and animate the curtains
+            leftCurtain.classList.add('open');
+            rightCurtain.classList.add('open');
+
+            // Remove the loading screen after the curtain animation ends
+            leftCurtain.addEventListener('animationend', () => {
+                loadingScreen.style.display = 'none';
             });
-        }, 1000); // Adjust this delay based on your animation length
+        }
+    });
+
+    window.addEventListener('load', function() {
+        loadingScreen.style.display = 'flex';
     });
 });
