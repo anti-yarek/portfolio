@@ -1,5 +1,106 @@
 @media only screen and (min-width:642px) {
   /* hi-res laptops and desktops */
+  #loading-screen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: #ff00ff; /* Adjust opacity if needed */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000; /* Ensure it is above other elements */
+}
+
+.loading-animation {
+    /* Define your loading animation styles here */
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: top;
+    justify-content: space-between;
+    animation: loading-animation 2s ease-in infinite; /* Adjust the timing and easing as needed */
+}
+
+.loading-arrow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.top-rect, .bottom-rect {
+    background-color: #00ffff;
+    margin: 0;
+}
+.top-rect {
+    width: 10vw;
+    height: 80vh;
+    transform: rotate(-45deg);
+}
+.bottom-rect {
+    width: 10vw;
+    height: 80vh;
+    transform: rotate(45deg);
+}
+
+@keyframes loading-animation {
+    from {
+        transform: translateX(-120%);
+    }
+    to {
+        transform: translateX(200%);
+    }
+}
+
+
+.curtain {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    width: 50%;
+    background-color: #ff00ff; /* Same as your loading screen background */
+    z-index: 1001; /* Above loading screen content */
+    visibility: hidden;
+}
+
+.left-curtain {
+    left: 0%; /* Start from the center */
+    transform: translateX(0%); /* Move it to the left by 50% of its own width */
+}
+
+.right-curtain {
+    right: -50%; /* Start from the center */
+    transform: translateX(0%); /* Move it to the right by 50% of its own width */
+}
+
+
+@keyframes curtains-open {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+.left-curtain.open {
+    visibility: visible;
+    animation: curtains-open 2s forwards;
+}
+
+.right-curtain.open {
+    visibility: visible;
+    animation: curtains-open 2s backwards;
+    animation-direction: reverse;
+}
+
+
+.hide-arrows {
+    visibility: hidden;
+}
+
 
 body {
     position: relative;
