@@ -6,7 +6,7 @@
     left: 0;
     width: 100vw;
     height: 100vh;
-    background-color: #ff00ff; /* Adjust opacity if needed */
+    background-color: rgba(255, 0, 255, 1); /* Adjust opacity if needed */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -14,7 +14,6 @@
 }
 
 .loading-animation {
-    /* Define your loading animation styles here */
     width: 100vw;
     height: 100vh;
     display: flex;
@@ -30,15 +29,18 @@
     align-items: center;
     flex-direction: column;
 }
+
 .top-rect, .bottom-rect {
     background-color: #00ffff;
     margin: 0;
 }
+
 .top-rect {
     width: 10vw;
     height: 80vh;
     transform: rotate(-45deg);
 }
+
 .bottom-rect {
     width: 10vw;
     height: 80vh;
@@ -54,7 +56,6 @@
     }
 }
 
-
 .curtain {
     position: fixed;
     top: 0;
@@ -66,40 +67,47 @@
 }
 
 .left-curtain {
-    left: 0%; /* Start from the center */
-    transform: translateX(0%); /* Move it to the left by 50% of its own width */
+    left: 0;
+    transform: translateX(0%);
 }
 
 .right-curtain {
-    right: -50%; /* Start from the center */
-    transform: translateX(0%); /* Move it to the right by 50% of its own width */
+    right: 0;
+    transform: translateX(0%);
 }
 
-
-@keyframes curtains-open {
+@keyframes left-curtain-open {
     from {
-        transform: translateX(0);
+        transform: translateX(0%);
     }
     to {
         transform: translateX(-100%);
     }
 }
 
+@keyframes right-curtain-open {
+    from {
+        transform: translateX(0%);
+    }
+    to {
+        transform: translateX(100%);
+    }
+}
+
 .left-curtain.open {
     visibility: visible;
-    animation: curtains-open 2s forwards;
+    animation: left-curtain-open 2s forwards;
 }
 
 .right-curtain.open {
     visibility: visible;
-    animation: curtains-open 2s backwards;
-    animation-direction: reverse;
+    animation: right-curtain-open 2s forwards;
 }
-
 
 .hide-arrows {
     visibility: hidden;
 }
+
 
 
 body {
