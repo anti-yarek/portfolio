@@ -264,6 +264,7 @@
       position: absolute;
       z-index: 1;
       overflow-x: hidden;
+      scroll-behavior: smooth;
   }
   .bg h1{
       font-family: Folio;
