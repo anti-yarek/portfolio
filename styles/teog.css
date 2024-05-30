@@ -6,7 +6,7 @@
     left: 0;
     width: 100vw;
     height: 100vh;
-    background-color: rgba(255, 255, 255, 1); /* Adjust opacity if needed */
+    background-color: rgba(255, 87, 148, 1); /* Adjust opacity if needed */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -31,7 +31,7 @@
 }
 
 .top-rect, .bottom-rect {
-    background-color: #FF5794;
+    background-color: #fff;
     margin: 0;
 }
 
@@ -61,7 +61,7 @@
     top: 0;
     bottom: 0;
     width: 50%;
-    background-color: #fff; /* Same as your loading screen background */
+    background-color: #FF5794; /* Same as your loading screen background */
     z-index: 1001; /* Above loading screen content */
     visibility: hidden;
 }
