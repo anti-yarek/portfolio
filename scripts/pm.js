@@ -3,6 +3,7 @@ const scrollbar = document.getElementById('scrollbar');
 const projects = document.getElementById('projects');
 let isDragging = false;
 let timeoutId;
+let scrollTimeout;
 
 function setImage(liveseyvbw) {
   const imagePath = `../portfolio/assets/${liveseyvbw}`;
@@ -57,11 +58,41 @@ projects.addEventListener('scroll', () => {
   }
 });
 
+// Smooth scroll function
+function smoothScroll(amount) {
+  let start = projects.scrollTop;
+  let end = start + amount;
+  let duration = 30; // Duration of the scroll in milliseconds
+  let startTime = null;
+
+  function animation(currentTime) {
+    if (startTime === null) startTime = currentTime;
+    let timeElapsed = currentTime - startTime;
+    let progress = Math.min(timeElapsed / duration, 1);
+    let ease = easeInOutQuad(progress);
+
+    projects.scrollTop = start + (end - start) * ease;
+
+    if (progress < 1) {
+      requestAnimationFrame(animation);
+    } else {
+      handleScroll();
+    }
+  }
+
+  requestAnimationFrame(animation);
+}
+
+// Ease in-out quadratic function
+function easeInOutQuad(t) {
+  return t < 0.5 ? 2 * t * t : -1 + (4 - 2 * t) * t;
+}
+
 // Listen for mouse wheel events for scrolling within the scrollbar
 scrollbar.addEventListener('wheel', (event) => {
   event.preventDefault();
-  projects.scrollTop += event.deltaY;
-  handleScroll();
+  const deltaY = event.deltaY > 0 ? 100 : -100;
+  smoothScroll(deltaY);
 });
 
 // Additional handling for touchpad scrolling within the scrollbar
@@ -77,6 +108,7 @@ scrollbar.addEventListener('touchmove', (e) => {
   handleScroll();
   touch.startY = touch.clientY;
 });
+
 
 
 document.addEventListener('DOMContentLoaded', function() {
