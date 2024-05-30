@@ -6,7 +6,7 @@
     left: 0;
     width: 100vw;
     height: 100vh;
-    background-color: rgba(243, 28, 41, 1); /* Adjust opacity if needed */
+    background-color: rgba(255, 255, 255, 1); /* Adjust opacity if needed */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -31,7 +31,7 @@
 }
 
 .top-rect, .bottom-rect {
-    background-color: #f5f5f5;
+    background-color: #F31C29;
     margin: 0;
 }
 
@@ -61,7 +61,7 @@
     top: 0;
     bottom: 0;
     width: 50%;
-    background-color: #F31C29; /* Same as your loading screen background */
+    background-color: #fff; /* Same as your loading screen background */
     z-index: 1001; /* Above loading screen content */
     visibility: hidden;
 }
@@ -319,6 +319,7 @@
       transform: rotate(-90deg);
       transform-origin: top left;
       overflow-y: scroll;
+      scroll-behavior: smooth;
       overflow-x: hidden;
       position: absolute;
       -ms-overflow-style: none;  /* Internet Explorer 10+ */

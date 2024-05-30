@@ -276,6 +276,7 @@
         scrollbar-width: none;
         transform: rotate(-90deg) translateX(-100vh);
         transform-origin: top left;
+        scroll-behavior: smooth;
     }  
     .scroll-container::-webkit-scrollbar {
         display: none;
