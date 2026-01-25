@@ -1130,4 +1130,7 @@
         font-size: 8vh;
         padding: 1.5vh;
     }
+    body {
+        all: inherit;
+    }
 }
